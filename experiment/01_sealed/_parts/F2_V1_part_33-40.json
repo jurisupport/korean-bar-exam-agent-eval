@@ -1,0 +1,58 @@
+{"model":"gpt-5.6-sol","variant":"V1","answers":[
+  {"no":33,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"행정절차 위반은 처분의 위법사유로서 본안에서 심리할 사항이고 소송요건이 아니라는 행정쟁송 통설(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.62,"authority":"행정절차법 제21조의 사전통지 예외 및 고시로 불특정 다수인에게 이루어지는 처분에 관한 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "③":{"truth":false,"confidence":0.65,"authority":"행정절차법 제19조의 처리기간은 훈시적 성격이므로 기간 경과만으로 이후 처분에 취소할 절차상 하자가 생기지 않는다는 통설(8768); 판례 전문 미인출","source":"8768"},
+    "④":{"truth":true,"confidence":0.62,"authority":"행정절차법 제22조의 필요적 청문 및 대법원 2000두3337의 청문 흠결 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.85,"authority":"행정절차법 제20조: 처분기준을 구체적으로 정하여 공표하되 법령 등에 처분기준이 구체적으로 규정되어 있는 경우에는 별도 설정·공표 의무가 없음","source":"8768"}
+  },"derivation":"옳지 않은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2000두3337"],"fulltext_pulled":[]},
+  {"no":34,"answer":2,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.88,"authority":"행정소송법 제10조 제2항: 관련청구소송이 다른 법원에 계속 중이면 그 법원은 신청 또는 직권으로 취소소송 계속 법원에 이송 가능","source":"8768"},
+    "ㄴ":{"truth":false,"confidence":0.64,"authority":"행정소송법 제10조의 관련청구 병합은 취소판결의 확정까지 요구하지 않으므로 부당이득반환청구의 병합에 취소판결 확정을 요한다는 명제는 과도함(8768); 판례 전문 미인출","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.62,"authority":"대법원 97누1990 및 2000두697: 주된 취소소송이 부적법하면 병합된 관련청구도 함께 각하한다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.88,"authority":"행정소송법 제16조: 제3자는 참가신청을 할 수 있고 신청기각결정에 즉시항고 가능","source":"8768"},
+    "ㅁ":{"truth":false,"confidence":0.9,"authority":"행정소송법 제17조: 법원은 필요하다고 인정하면 다른 행정청을 직권으로 소송에 참가시킬 수 있음","source":"8768"}
+  },"derivation":"옳은 지문 = ㄱ·ㄷ·ㄹ → ②(=answer 2)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["97누1990","2000두697"],"fulltext_pulled":[]},
+  {"no":35,"answer":4,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"지방자치법상 주민감사청구 전치요건은 주민소송의 소송요건이고 법원이 직권조사한다는 판례·통설(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.82,"authority":"지방자치법 제22조의 주민소송 유형 및 해당 행위의 중지가 생명·신체 또는 공공복리를 현저히 해칠 우려가 있을 때 중지청구를 제한하는 명문 규정","source":"8768"},
+    "③":{"truth":true,"confidence":0.8,"authority":"지방자치법 제22조 제2항 제4호의 손해배상·부당이득반환 청구 요구소송에서 상대방, 재무회계행위, 감사청구와의 관련성 및 청구액 특정에 관한 판례·통설(8768)","source":"8768"},
+    "④":{"truth":false,"confidence":0.6,"authority":"적법한 주민감사청구를 감사기관이 각하한 경우에도 별도로 각하결정을 다투어야만 하는 것은 아니고 주민소송을 제기할 수 있다는 주민소송 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.63,"authority":"주민감사청구 및 주민소송의 적법단계에서는 위법 또는 현저히 공익에 반하는 재무회계행위의 주장·개연성이 요구되고 실제 위법성은 본안사항이라는 판례·통설(8768); 판례 전문 미인출","source":"8768"}
+  },"derivation":"옳지 않은 것 = ④ → ④(=answer 4)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":36,"answer":2,"propositions":{
+    "①":{"truth":false,"confidence":0.85,"authority":"행정기본법 제2조의 제재처분 개념은 행정상 강제를 제외하고 과태료는 행정처분이 아니므로, 과징금·과태료·이행강제금을 모두 금전적 제재처분으로 묶은 명제는 부정확함","source":"8768"},
+    "②":{"truth":true,"confidence":0.62,"authority":"대법원 2020두39365: 업무정지처분은 요양기관 자체를 대상으로 하므로 폐업으로 기관이 소멸하면 처분할 수 없고 동일 운영자의 새 기관에도 특별한 승계규정 없이 부과할 수 없음(8768); 판례 전문 미인출","source":"8768"},
+    "③":{"truth":false,"confidence":0.9,"authority":"행정기본법 제23조 제1항은 제재처분의 5년 기산점을 법령 위반행위가 '종료된 날'로 정함","source":"8768"},
+    "④":{"truth":false,"confidence":0.8,"authority":"부령 형식의 제재처분 기준은 행정기관 내부 사무처리준칙으로서 대외적 구속력이 없어 국민이나 법원을 구속하지 않는다는 판례 법리(8768)","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.9,"authority":"행정기본법 제22조는 제재처분의 주체·근거·유형과 상한을 법률에 규정하도록 할 뿐 하한까지 반드시 법률로 정하도록 하지 않음","source":"8768"}
+  },"derivation":"옳은 것 = ② → ②(=answer 2)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2020두39365"],"fulltext_pulled":[]},
+  {"no":37,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.6,"authority":"소송계속 중 도로점용료를 감액하는 것은 당초 처분의 일부취소·변경이고 하자의 사후보완인 치유와 구별된다는 통설 및 대법원 2001두10684의 제한적 치유 법리(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.63,"authority":"처분대상 여부를 정확히 조사해야 드러나는 경우에는 하자가 중대해도 외관상 명백하지 않다는 무효 판단 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "③":{"truth":true,"confidence":0.64,"authority":"중대·명백성은 법규의 목적·의미·기능과 구체적 사안의 특수성을 목적론적·합리적으로 고찰한다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "④":{"truth":true,"confidence":0.61,"authority":"환경영향평가 대상사업에 평가를 전혀 거치지 않은 승인처분은 중요한 법규 위반으로 하자가 중대·명백하여 무효라는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.62,"authority":"대법원 93누10828 및 94누12920 계열: 수용보상금 증액소송에서 가격산정의 기초인 비교표준지 공시지가결정의 위법을 독립 사유로 주장할 수 있다는 법리(8768); 판례 전문 미인출","source":"8768"}
+  },"derivation":"옳지 않은 것 = ① → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2001두10684","93누10828","94누12920"],"fulltext_pulled":[]},
+  {"no":38,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.63,"authority":"추상적 사회보장수급권의 행사기간은 소멸시효라는 명문이 없으면 제척기간으로 해석한다는 판례·통설(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"객관적 요건 충족으로 추상적 급부청구권이 생기고 신청 및 행정청의 지급결정으로 구체적 수급권이 된다는 대법원 2002두3522 계열 법리(8768); 판례 전문 미인출","source":"8768"},
+    "③":{"truth":true,"confidence":0.64,"authority":"신청기간이 권리행사를 중대하게 제한하면 법률유보에 따라 법률 또는 위임받은 하위법령에 근거해야 한다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "④":{"truth":true,"confidence":0.64,"authority":"추상적 권리를 구체화하는 신청권과 이미 구체화된 급여액 지급청구권은 성질이 달라 행사기간을 달리 규율할 수 있다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.62,"authority":"대법원 2002두3522 및 93누18532: 행정청의 인정·결정으로 구체적 수급권이 형성되기 전에는 국가 등을 상대로 곧바로 급부지급을 구하는 당사자소송을 할 수 없음(8768); 판례 전문 미인출","source":"8768"}
+  },"derivation":"옳지 않은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2002두3522","93누18532"],"fulltext_pulled":[]},
+  {"no":39,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.64,"authority":"대법원 2014두35379: 행정기관 사이 권한분쟁은 통상 내부적으로 해결하거나 법정 기관소송·권한쟁의심판으로 다룬다는 법리(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.62,"authority":"대법원 2014두35379 계열: 제재와 과태료·형벌의 상대방인 행정기관이 다른 권한분쟁절차를 이용할 수 없는 경우 예외적으로 항고소송 원고능력·적격을 인정하는 법리(8768); 판례 전문 미인출","source":"8768"},
+    "③":{"truth":false,"confidence":0.55,"authority":"하도급법상 벌점 부과대상은 법 위반 원사업자이고 수급사업자까지 포괄하지 않음; 대법원 2020두50683은 벌점이 후속 제한요청의 기초자료라 처분이 아니라고 판시함(8768). 부과대상 문언과 판례 전문 미인출","source":"8768"},
+    "④":{"truth":true,"confidence":0.6,"authority":"국가의 철도운행사업은 사경제작용이어서 운행사고에는 민법이 적용되지만 공공 영조물인 철도시설의 설치·관리 하자에는 국가배상법 제5조가 적용된다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.6,"authority":"대한변호사협회는 변호사 등록사무에 관하여 공권력을 행사하는 공법인이고 해당 등록규범도 단순한 사법상 내부기준으로 볼 수 없다는 헌법재판소 법리(8768); 결정 전문 미인출","source":"8768"}
+  },"derivation":"옳지 않은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2014두35379","2020두50683"],"fulltext_pulled":[]},
+  {"no":40,"answer":4,"propositions":{
+    "①":{"truth":true,"confidence":0.6,"authority":"대검찰청 자체감사규정·검찰공무원 범죄 및 비위 처리지침상 경고는 감찰관리 및 인사자료 활용 등 구체적 불이익을 발생시켜 처분성이 인정된다는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "②":{"truth":true,"confidence":0.61,"authority":"수용자 소지물품 범위는 전문적·기술적이고 경미하여 행정규칙에 위임할 불가피성이 인정된다는 헌법재판소 법리(8768); 결정 전문 미인출","source":"8768"},
+    "③":{"truth":true,"confidence":0.82,"authority":"헌법 제75조·제95조와 위임입법 한계: 시행령은 위임사항 및 모법 집행 세부사항만 규정할 수 있고 위임 없이 권리·의무를 변경·보충하거나 새 내용을 정할 수 없음","source":"8768"},
+    "④":{"truth":false,"confidence":0.58,"authority":"공증인에 대한 감독·직무명령권에 근거한 집행증서 작성사무 지침은 공증인 대상 내부적 사무처리준칙인 행정규칙이지 법규명령은 아니라는 판례 법리(8768); 판례 전문 미인출","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.62,"authority":"명확한 법률 위임용어의 의미범위를 고시가 확장하여 새로운 입법사항을 만든 경우 위임한계를 일탈한다는 판례 법리(8768); 판례 전문 미인출","source":"8768"}
+  },"derivation":"옳지 않은 것 = ④ → ④(=answer 4)","min_prop_confidence":0.58,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]}
+]}

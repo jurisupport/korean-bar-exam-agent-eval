@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","variant":"V1","answers":[
+  {"no":9,"answer":4,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법 제19조·제39조; 헌재 2024. 5. 30. 2021헌마117은 교정시설 대체복무가 형사처벌에 따른 수용과 법적·사회적 의미가 달라 수형자와 같은 징벌적 처우가 아니라고 판단(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"대체역법상 36개월 복무·합숙 규정; 헌재 2024. 5. 30. 2021헌마117은 교정시설·36개월·합숙 대체복무가 양심의 자유를 침해하지 않는다고 판단(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.55,"authority":"헌법 제17조·제37조 제2항; 2021헌마117의 생활관 운영 관련 판단상 공동생활시설의 CCTV 운영 사실만으로 과도한 기본권 제한이라고 단정하기 어려움(결정 전문 인출 실패)","source":"지식"},
+    "④":{"truth":false,"confidence":0.55,"authority":"대체역법상 정치행위 제한조항; 대체복무요원 정당가입금지 사건의 법정결론은 복무의 공공성·정치적 중립성을 들어 정당가입의 자유 침해를 부정함(사건번호 및 결정 전문 인출 실패)","source":"지식"},
+    "⑤":{"truth":true,"confidence":0.55,"authority":"헌법 제19조·제39조 및 대체역법상 소집불응 처벌조항; 국가관리 대체복무 자체를 거부하면서 순수 민간주관 사회봉사만 요구하는 경우까지 별도 대체수단을 마련하지 않은 것이 양심의 자유 침해는 아니라는 결정례(사건번호 및 전문 인출 실패)","source":"지식"}},
+   "derivation":"옳지 않은 것 = ④ → ④(=answer 4)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2021헌마117"],"fulltext_pulled":[]},
+  {"no":10,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"최저임금법 제8조 제1항; 헌재 2025. 1. 23. 2021헌마1194는 최저임금결정 권한·의무만 정한 조항 자체의 기본권 제한을 부정하여 직접성 흠결로 판단(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"최저임금법 제14조 제1항; 2021헌마1194는 최저임금위원회 구성에 관한 조직규범 자체가 일반국민의 기본권을 제한하지 않는다고 판단(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"헌법 제10조·제15조, 근로기준법 제53조 제1항; 2021헌마1194는 연장근로 계약내용 제한으로 노사의 계약의 자유 및 사용자의 직업수행의 자유가 제한됨을 전제로 심사(전문 인출 실패)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌법 제23조; 2021헌마1194는 영리획득의 단순한 기회 및 기업활동의 사실적·법적 여건은 재산권 보호영역이 아니라고 판단(전문 인출 실패)","source":"지식"},
+    "⑤":{"truth":false,"confidence":0.65,"authority":"헌법 제32조 제1항, 근로기준법 제53조 제1항; 2021헌마1194는 주 52시간 상한이 건강하고 합리적인 근로환경을 위한 것으로 근로자의 근로의 권리를 침해하지 않는다고 판단(전문 인출 실패)","source":"지식"}},
+   "derivation":"옳지 않은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2021헌마1194"],"fulltext_pulled":[]},
+  {"no":11,"answer":5,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제68조 제1항; 헌재 2006. 6. 29. 2005헌마165등의 재판규범 직접성 법리 및 항소이유서 미제출 시 항소기각결정 조항 사례는 법원의 구체적 재판을 매개하므로 직접성 부정(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"공증인법상 인가공증인 정원 규정; 직접 수범자인 법무법인이 정원제로 인가받지 못하면 소속 변호사의 공증업무 수행도 제한되므로 소속 변호사의 자기관련성을 인정한 결정례(사건번호 및 전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제40조 제1항; 헌재 2019. 5. 30. 2018헌마1208등, 2020. 6. 25. 2018헌마974는 청구인 추가가 표시정정 범위를 넘는 허용되지 않는 임의적 당사자변경이라고 판단(전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제40조 제1항, 민사소송법 제83조 제1항; 헌재 2009. 4. 30. 2007헌마106 등은 합일확정이 필요한 제3자의 공동심판참가를 허용하되 독립 헌법소원에 갈음하므로 청구기간 준수를 요구(전문 인출 실패)","source":"8768"}},
+   "derivation":"ㄱ○·ㄴ○·ㄷ○·ㄹ○ → 조합 ⑤(=answer 5)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2005헌마165등","2018헌마1208등","2018헌마974","2007헌마106"],"fulltext_pulled":[]},
+  {"no":12,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"헌법 제117조 제1항, 지방자치법 제28조 제1항은 법령의 범위에서 사무에 관한 조례를 제정하되 권리제한·의무부과·벌칙에는 법률 위임을 요구","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"헌재 1995. 4. 20. 92헌마264·279의 자치입법 법리상 지방의회의 민주적 정당성과 포괄적 자치권 때문에 조례 위임은 법규명령 위임보다 완화되어 포괄적 위임도 가능(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"헌재 2002. 10. 31. 2001헌라1은 헌법 제117조 제1항의 법령에 법률·법규명령뿐 아니라 법규명령으로 기능하는 행정규칙도 포함된다고 판단(전문 인출 실패)","source":"8768"},
+    "④":{"truth":true,"confidence":0.9,"authority":"지방자치법 제32조 제3항은 이송받은 조례안에 대한 20일 내 이유부 재의요구를 정하면서 일부 또는 수정 재의요구를 금지","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.9,"authority":"주민조례발안에 관한 법률 제2조는 주민의 조례 제정·개정·폐지 청구권을 규정","source":"8768"}},
+   "derivation":"옳지 않은 것 = ② → ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["92헌마264·279","2001헌라1"],"fulltext_pulled":[]},
+  {"no":13,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법 제15조; 직업의 자유는 직업선택과 직업수행의 자유를 포함하고 법인은 성질상 직업수행의 자유의 주체가 된다는 확립된 헌재 법리(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌법 제15조·제119조; 직업의 자유는 개인의 주관적 자유권인 동시에 사회적 시장경제질서를 형성하는 객관적 법질서의 구성요소라는 확립된 헌재 법리(전문 인출 실패)","source":"8768"},
+    "③":{"truth":false,"confidence":0.55,"authority":"병역법상 사회복무요원 겸직 허가·경고 및 복무연장 조항; 복무전념과 병역부담 형평을 위한 제한이고 예외적 허가 가능성도 있어 직업의 자유를 침해하지 않는다는 결정례(사건번호 및 전문 인출 실패)","source":"지식"},
+    "④":{"truth":true,"confidence":0.65,"authority":"구 옥외광고물법 시행령상 비사업용 자동차 표시 제한; 차량광고의 양을 도로교통 안전·도시미관을 해치지 않는 수준으로 제한하는 합리적 표현방법·직업수행 규제로 보아 기본권 침해를 부정한 결정례(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2011. 9. 29. 2007헌마1083등은 적법한 고용허가로 국내 생활관계를 형성한 외국인의 직장선택의 자유를 인간의 권리로서 보장(전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2007헌마1083등"],"fulltext_pulled":[]},
+  {"no":14,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.95,"authority":"헌법 제119조 제1·2항을 종합하면 사유재산·자유경쟁을 기초로 하면서 경제의 민주화를 위한 조정·규제를 허용하는 사회적 시장경제질서","source":"지식"},
+    "②":{"truth":false,"confidence":0.95,"authority":"헌법 제123조 제4항은 농수산물 수급균형·유통구조 개선을 통한 가격안정과 농어민 이익 보호를 정할 뿐 농산물 최저가격제의 의무적 시행을 규정하지 않음","source":"지식"},
+    "③":{"truth":true,"confidence":0.95,"authority":"헌법 제126조는 국방상 또는 국민경제상 긴절한 필요로 법률이 정한 경우 사영기업의 국유·공유 이전을 예외적으로 허용","source":"지식"},
+    "④":{"truth":false,"confidence":0.95,"authority":"헌법 제121조 제1항은 농지 소작제도를 금지하고, 제2항은 농업생산성·합리적 이용 또는 불가피한 사정의 농지 임대차와 위탁경영만 법률로 인정","source":"지식"},
+    "⑤":{"truth":false,"confidence":0.85,"authority":"헌법 제119조 제2항의 적정한 소득분배 목표는 입법형성의 지침이지만 누진세율 종합과세라는 특정 수단을 택할 구체적 헌법의무까지 직접 도출하지 않음","source":"지식"}},
+   "derivation":"옳은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.85,"contested":false,"gap_class":"none","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":15,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌재 1999. 5. 27. 98헌바70은 텔레비전방송수신료를 특정 공익사업 경비를 수상기 소지자 집단에 부과하는 특별부담금으로 보아 조세·수익자부담금과 구별(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.55,"authority":"방송법 시행령 제43조 제2항; 수신료의 구체적 고지방법은 수신료 금액·납부의무자 범위 같은 본질사항이 아니어서 법률이 직접 정하지 않아도 의회유보원칙 위반이 아니라는 수신료 분리징수 결정(사건번호 및 전문 인출 실패)","source":"지식"},
+    "ㄷ":{"truth":false,"confidence":0.55,"authority":"방송법상 수신료 고지·징수 체계 및 시행령 제43조 제2항; 결합고지 금지는 방송운영의 자유를 법적으로 제한하는 새로운 사항이 아니라 법률상 징수업무의 구체적 집행방법을 정한 집행명령이라는 수신료 분리징수 결정(사건번호 및 전문 인출 실패)","source":"지식"},
+    "ㄹ":{"truth":false,"confidence":0.55,"authority":"헌법상 신뢰보호원칙; 30년간 통합고지 관행만으로 동일 방식의 영속에 대한 보호가치 있는 신뢰가 확정되지 않고 공익상 제도변경 필요도 있어 신뢰보호 위반을 부정한 수신료 분리징수 결정(사건번호 및 전문 인출 실패)","source":"지식"}},
+   "derivation":"ㄱ○·ㄴ○·ㄷ×·ㄹ× → ㄱ, ㄴ인 ①(=answer 1)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["98헌바70"],"fulltext_pulled":[]},
+  {"no":16,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법 제35조 제1항; 헌재 2024. 8. 29. 2020헌마389등은 환경권의 환경에 자연환경과 생활환경이 포함되고 국가의 환경보전의무에 기후위기 대응의무가 포함됨을 전제로 판단(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2024. 8. 29. 2020헌마389등은 환경권 보호의무 심사에서 위험상황에 상응하는 보호조치가 필요한 최소한의 성격을 갖추었는지를 과소보호금지원칙으로 심사(전문 인출 실패)","source":"8768"},
+    "③":{"truth":false,"confidence":0.65,"authority":"탄소중립기본법 제8조 제1항; 2020헌마389등은 미래세대 기본권에 중대한 2031~2049 감축경로의 대강조차 법률이 정하지 않고 정부에 맡긴 규율을 정당화할 수 없다고 판단(전문 인출 실패)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"2020헌마389등은 2031~2049 정량기준 부재가 점진적·지속적 감축을 담보하지 못하고 미래에 과중한 부담을 이전하여 과소보호금지원칙에 위반된다고 판단(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"탄소중립기본법 제8조 제1항 및 시행령 제3조 제1항; 2020헌마389등은 2030 목표 40% 부분은 최소보호에 미달한다고 보기 어렵다고 판단(전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2020헌마389등"],"fulltext_pulled":[]}
+]}

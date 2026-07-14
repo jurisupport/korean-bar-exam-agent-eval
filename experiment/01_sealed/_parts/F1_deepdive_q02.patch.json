@@ -1,0 +1,79 @@
+{
+ "run": 1,
+ "question": 2,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "8bb5799540e98b6d080ad446bda165d3e3f5a645d6dfc4a39dc3995a2a692b50",
+ "answer": {
+  "no": 2,
+  "answer": 1,
+  "propositions": {
+   "①": {
+    "truth": false,
+    "confidence": 0.62,
+    "authority": "헌재 2009. 2. 26. 2007헌바41: 국회의원들이 공개적 토론과 타협을 거쳐 적법한 절차로 제정한 법률에 국민 사전청문을 요구하는 것은 의회주의·대의민주주의의 기본취지에 부합하지 않음",
+    "source": "precedent-search+8768"
+   },
+   "②": {
+    "truth": true,
+    "confidence": 0.65,
+    "authority": "헌재 2025. 3. 13. 2024헌나3·4·5: 필요한 법정절차가 준수되고 위반행위가 일정 수준 이상 소명되면 부수적 정치목적·동기만으로 탄핵소추권 남용이라 단정할 수 없음",
+    "source": "8768"
+   },
+   "③": {
+    "truth": true,
+    "confidence": 0.65,
+    "authority": "헌법 제60조 제1항 및 헌재 1999. 4. 29. 97헌가14: 명칭이 협정이어도 외국군 지위·재정부담·입법사항을 포함한 SOFA는 국회 동의 대상 조약",
+    "source": "precedent-search"
+   },
+   "④": {
+    "truth": true,
+    "confidence": 0.65,
+    "authority": "헌재 2025헌라1 법정의견 취지: 본회의가 권한실현 의사를 이미 결정·확인한 경우 국회의장은 대표권으로 별도 본회의 의결 없이 청구 가능",
+    "source": "precedent-search"
+   },
+   "⑤": {
+    "truth": true,
+    "confidence": 0.65,
+    "authority": "헌재 2015헌라1: 법률 제·개정 행위를 다투는 권한쟁의의 피청구인은 국회이고 국회의장은 피청구인적격이 없음",
+    "source": "precedent-search"
+   }
+  },
+  "derivation": "옳지 않은 것 = ① → ①(=answer 1)",
+  "min_prop_confidence": 0.62,
+  "contested": true,
+  "gap_class": "evidence",
+  "cited_caseno": [
+   "2007헌바41",
+   "92헌가8",
+   "2012헌바302",
+   "97헌가14",
+   "2024헌나3",
+   "2024헌나4",
+   "2024헌나5",
+   "2025헌라1",
+   "2015헌라1"
+  ],
+  "fulltext_pulled": [
+   "2007헌바41",
+   "2024헌나3",
+   "2024헌나4",
+   "2024헌나5",
+   "2025헌라1",
+   "2015헌라1"
+  ],
+  "votes": {
+   "V1": 1,
+   "V2": 1,
+   "V3": 1
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [
+   "지문conf<0.7",
+   "contested플래그",
+   "97헌가14 결정전문 미인출(korean-law 호출 취소·법고을 Chrome 기동 실패)"
+  ],
+  "redteam": "①을 참으로 보는 92헌가8·2012헌바302의 논거는 적법절차가 입법작용에도 적용되고 의견제출 기회가 그 요소가 될 수 있다는 일반론에 그쳐, 국회 입법에서 국민 사전청문이 요구되는지를 직접 배척한 2007헌바41을 뒤집지 못한다. 동일쟁점의 근거 있는 challenger 미구성 → 확신 보류.",
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol"
+ }
+}

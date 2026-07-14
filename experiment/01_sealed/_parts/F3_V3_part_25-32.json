@@ -1,0 +1,53 @@
+{"model":"gpt-5.6-sol","variant":"V3","answers":[
+  {"no":25,"answer":5,"propositions":{
+    "①":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판결: 사증발급은 입국을 위한 예비조건 내지 입국허가의 추천이고 입국허가결정 자체가 아님","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판결: 사증발급 관련 출입국관리법령은 출입국질서·국경관리의 공익을 위한 것이고 국외 외국인의 입국 사익까지 보호하지 않음","source":"8768"},
+    "③":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판결: 국외 거주 외국인은 사증발급 거부의 상대방이라도 그 취소를 구할 법률상 이익이 인정되지 않음","source":"8768"},
+    "④":{"truth":false,"confidence":0.6,"authority":"행정절차법 제3조 제2항 제9호: 대통령령상 열거사항이라는 이유만으로 적용이 자동 배제되는 것이 아니고 행정작용의 성질상 절차가 곤란·불필요하거나 준하는 절차를 거친 경우라는 모법상 요건도 충족해야 함","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.8,"authority":"행정절차법 제21조 제1항의 불이익처분 사전통지 법리: 수익적 처분 신청의 거부는 의무 부과 또는 기존 권익의 적극적 제한에 해당하지 않음","source":"8768"}},
+   "derivation":"옳은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2014두42506"],"fulltext_pulled":[]},
+  {"no":26,"answer":3,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.62,"authority":"대법원 국립대 법학전문대학원 안식일 면접 사건 판시: 면접일시 변경 거부와 후속 불합격처분은 별개의 처분으로서 후자가 전자를 흡수하지 않음","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 국립대 법학전문대학원 안식일 면접 사건 판시: 대체 면접 제공의 부담에 비해 종교적 신념으로 받는 불이익이 중대하므로 변경 거부와 불합격처분은 평등원칙 위반","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.62,"authority":"대법원 국립대 법학전문대학원 안식일 면접 사건 판시: 처분 취소로 회복되는 법률상 이익 및 반복 위험에 관한 사법통제 필요성을 인정","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"대법원 국립대 법학전문대학원 안식일 면접 사건 판시: 국립대 총장은 공권력 주체·기본권 수범자로서 실질적 평등 실현의무를 부담하여 사인보다 차별의 위법성이 폭넓게 인정됨","source":"8768"}},
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○ = ③(=answer 3)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":27,"answer":2,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.65,"authority":"행정대집행법 제2조: 대집행은 대체적 작위의무에 한정되며 장례식장 사용중지의 부작위의무는 대집행 대상이 아님","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2021. 2. 4. 선고 2020두48390 판결: 인지한 여러 위반행위는 최고한도 내 일괄 과징금 부과가 원칙이고 임의 분할 부과는 특별한 사정 없이 허용되지 않음","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"건축법상 시정명령 판례법리: 위법상태를 시정할 법률상 또는 사실상 지위에 있는 상대방에게만 시정명령을 할 수 있음","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.9,"authority":"질서위반행위규제법 제20조 제1항·제2항: 적법한 이의제기가 있으면 행정청의 과태료 부과처분은 효력을 상실함","source":"8768"},
+    "ㅁ":{"truth":false,"confidence":0.65,"authority":"병역법상 병역의무 기피자 공개 판례: 병무청장의 최종 공개결정은 항고소송의 대상인 처분이고 후속 홈페이지 게시는 집행행위임","source":"8768"}},
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○·ㅁ× = ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2020두48390"],"fulltext_pulled":[]},
+  {"no":28,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.62,"authority":"도시정비법상 조합 임원 판례법리: 재개발조합이 공법인이어도 조합과 조합장 사이 선임·해임 관계는 사법관계이므로 민사소송으로 다툼","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"도시 및 주거환경정비법 제27조 제1항 및 대법원 판례정리: 신탁업자가 사업시행자인 경우 토지등소유자는 신탁업자를 상대로 공법상 당사자소송으로 위탁자 지위 확인을 구할 수 있음","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"대법원 소송형식 오인 법리: 고의·중과실 없이 당사자소송으로 잘못 제기하면 항고소송 변경을 석명하되 항고소송 요건 흠결이 명백하면 예외","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"민간투자사업 실시협약 판례법리: 재정지원금 청구 당사자소송에서 법원은 절차 위법 심사에 그치지 않고 적정 금액을 구체적으로 심리·판단함","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2022. 2. 24. 2020헌가12 결정: 국가 상대 당사자소송의 가집행선고 금지 규정을 위헌으로 결정하여 재산권 청구의 가집행선고가 가능함","source":"8768"}},
+   "derivation":"옳지 않은 것 = ① → ①(=answer 1)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2020헌가12"],"fulltext_pulled":[]},
+  {"no":29,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.6,"authority":"산업집적활성화 및 공장설립에 관한 법률상 입주계약의 공장설립승인 의제는 건축허가·개발행위허가까지 당연히 의제하지 않으므로 별도 인허가가 필요함","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.6,"authority":"부분 인허가의제 판례법리: 주된 사업계획승인과 분리 가능한 의제 산지전용허가의 취소는 독립하여 법적 효과를 소멸시키는 처분으로 항고소송 대상이 됨","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"행정기본법 제25조·제26조 및 판례정리: 의제 인허가는 통상 인허가와 동일한 효력이 있고 분리 가능한 경우 직권 취소·철회와 그에 대한 쟁송취소가 허용됨","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.6,"authority":"구 주택법 제17조 제1항 판례법리: 협의된 관련 인허가만 의제되고 모든 관련 인허가의 일괄 협의가 주된 승인의 요건이 아니므로 관련 인허가 공시방법의 하자가 곧 주택건설사업계획 승인 자체의 위법사유가 되지는 않음","source":"8768"}},
+   "derivation":"옳은 것 ㄱ·ㄴ·ㄷ = ④(=answer 4)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":30,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"행정재산 사용허가 판례법리: 허가 여부는 재량이고 사실오인·비례평등 위반·목적 위반·부정한 동기는 재량권 일탈·남용 사유임","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"공법상 계약과 후속 수익적 처분 판례법리: 특별한 사정이 없으면 계약상 권리·의무의 이행방식에 부합하도록 재량권을 계약에 반하지 않는 범위에서 행사해야 함","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"구 국민건강보험법 제52조 제1항의 '전부 또는 일부' 문언과 판례법리: 부당이득징수의 범위에는 재량이 있어 전부를 기속행위라고 할 수 없음","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.85,"authority":"재량권 사실오인 법리: 행정청이 유리한 사실관계를 인식하면서도 반영하지 않은 것은 그 사실의 존재·부존재를 잘못 안 사실오인이 아니며 곧바로 일탈·남용이 되는 것도 아님","source":"8768"}},
+   "derivation":"옳은 것 ㄱ·ㄴ = ①(=answer 1)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":31,"answer":1,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"행정소송법 제20조 제3항, 제8조 제2항 및 민사소송법 제173조: 90일의 주관적 제소기간은 불변기간이고 책임질 수 없는 사유가 있으면 추후보완 가능","source":"8768"},
+    "②":{"truth":false,"confidence":0.85,"authority":"행정절차법 제14조 제4항·제15조 제3항: 특정인에 대한 공고송달은 특별한 규정이 없으면 공고일부터 14일 경과 시 효력이 발생하며 5일 기준이 아님","source":"8768"},
+    "③":{"truth":false,"confidence":0.75,"authority":"행정소송법 제21조 제4항의 소 종류 변경 법리: 적법한 변경은 최초 소 제기 시에 변경된 소가 제기된 것으로 보아 제소기간을 판단함","source":"8768"},
+    "④":{"truth":false,"confidence":0.65,"authority":"대법원 2007. 4. 27. 선고 2004두9302 판결: 유리한 변경처분 뒤에도 변경된 내용의 당초 처분이 소송대상이고 제소기간도 당초 처분 기준","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.8,"authority":"행정소송의 소송요건 직권조사 법리: 행정심판청구의 적법 여부는 법원이 독자적으로 판단하고 재결청 판단에 기속되지 않음","source":"8768"}},
+   "derivation":"옳은 것 = ① → ①(=answer 1)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2004두9302"],"fulltext_pulled":[]},
+  {"no":32,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.6,"authority":"국가배상 손해발생시기 판례법리: 무효가 아닌 행정처분이 확정되어 이행의무와 비용부담이 구체화되면 특별한 사정 없이 처분 당시 비용 상당 손해가 현실화됨","source":"8768"},
+    "ㄴ":{"truth":false,"confidence":0.6,"authority":"재판작용 국가배상 판례법리: 청구기간 내 헌법소원을 명백한 기간 오인으로 각하하여 적법한 재판을 받을 절차적 이익을 침해한 경우 본안 기각 가능성만으로 국가배상책임이 당연히 부정되지 않음","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.85,"authority":"국가배상법 제2조 제1항의 직무상 의무 보호목적 법리: 법령이 공공일반의 이익이나 행정기관 내부질서만을 위한 경우 제3자 개인의 손해에 대한 국가배상상 직무의무 위반·상당인과관계가 당연히 인정되지 않음","source":"8768"}},
+   "derivation":"옳지 않은 것 ㄴ·ㄷ = ④(=answer 4)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]}
+]}

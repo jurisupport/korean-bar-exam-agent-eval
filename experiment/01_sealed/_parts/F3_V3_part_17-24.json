@@ -1,0 +1,339 @@
+{
+  "model": "gpt-5.6-sol",
+  "variant": "V3",
+  "answers": [
+    {
+      "no": 17,
+      "answer": 2,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제47조 및 헌재·대법원 판례상 비형벌조항 위헌결정의 소급효 범위와 법적 안정성을 위한 예외(전문 미인출)",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제47조 제3항·제4항: 형벌조항이 소급하여 효력을 상실한 경우 유죄 확정판결에 대한 재심 허용",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.62,
+          "authority": "헌법재판소법 제54조의 문언상 탄핵심판 결정에는 위헌결정의 기속력 규정이 적용되지 않음",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2008도7562 전원합의체: 형벌조항에 대한 잠정적용 헌법불합치결정의 개선시한 경과 뒤 소급효가 문제되면 무죄를 선고할 사안이지 면소 사유가 아님(전문 미인출)",
+          "source": "8768"
+        },
+        "ㅁ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 판례상 위헌 법률에 근거한 선행 행정처분도 특별한 사정이 없는 한 당연무효가 아니라 취소사유에 그침(전문 미인출)",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳은 것 = ㄱ, ㄴ, ㄷ → ②(=answer 2)",
+      "min_prop_confidence": 0.62,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2008도7562",
+        "2011헌바38"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 18,
+      "answer": 1,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.58,
+          "authority": "법원조직법상 최근 3년 당원 경력을 법관 임용 결격사유로 삼은 조항에 관한 헌재의 공무담임권 침해 결정 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "구 국가공무원법상 피성년후견을 당연퇴직 사유로 정한 조항에 관한 헌재의 공무담임권 침해 결정 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.58,
+          "authority": "아동·청소년 대상 성범죄로 형을 선고받은 군인의 영구적 임용결격·당연퇴직 조항에 관한 헌재의 공무담임권 침해 결정 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.62,
+          "authority": "공무원 보수 감액 징계 후 12개월 승진임용 제한은 인사질서와 징계 실효성 확보를 위한 제한으로 공무담임권을 침해하지 않는다는 헌재 판례 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        }
+      },
+      "derivation": "진리표 = ㄱ○·ㄴ○·ㄷ○·ㄹ× → ①(=answer 1)",
+      "min_prop_confidence": 0.58,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 19,
+      "answer": 2,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.62,
+          "authority": "헌재의 대북전단 살포 금지·처벌 조항 위헌결정: 표현의 자유를 과도하게 제한한다는 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.58,
+          "authority": "공직선거법 제251조 후보자비방죄는 진실한 사실로서 공공의 이익에 관한 때 처벌하지 않는 예외를 두어 표현의 자유를 침해하지 않는다는 헌재 판례 취지(전문·사건번호 미인출)",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2010헌마47 등: 공공기관 인터넷게시판 이용자 본인확인제는 익명 표현의 자유를 침해한다는 결정 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.56,
+          "authority": "인터넷선거보도심의기준이 선거일 전 90일부터 후보자 작성 칼럼의 게재를 제한한 데 관한 헌재의 표현의 자유 침해 결정 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.62,
+          "authority": "선거운동기간 인터넷언론사 게시판의 실명확인 조치에 관한 헌재의 익명 표현의 자유 침해 결정 취지(전문·사건번호 미인출)",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ② → ②(=answer 2)",
+      "min_prop_confidence": 0.56,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2010헌마47"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 20,
+      "answer": 1,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제68조 제2항의 재판의 전제성 법리: 운전면허 취소처분의 근거인 A와 달리 별도의 2년 결격기간을 정한 B의 위헌 여부는 당해 취소소송의 주문·법률적 의미를 달리하지 않음(전문 미인출)",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.95,
+          "authority": "헌법재판소법 제68조 제2항에서 당해사건은 위헌법률심판제청신청의 기초가 된 부산지방법원 2025구단1464 사건임",
+          "source": "지식"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제68조 제1항의 직접성 법리: B는 별도 집행행위 없이 결격기간을 발생시키지만 A의 불이익은 운전면허 취소처분을 매개로 함(전문 미인출)",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.72,
+          "authority": "헌법 제15조 및 직업의 자유 법리: 화물운송을 직업으로 하는 자에게 면허취소와 재취득 결격기간은 직업수행·선택의 자유를 제한함",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "반복 음주운전 방지라는 중대한 공익과 2년의 한정된 결격기간을 고려하면 최소침해성에 반하지 않는다는 헌재 판례 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        }
+      },
+      "derivation": "옳지 않은 것 = ① → ①(=answer 1)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 21,
+      "answer": 3,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2022다289051 전원합의체: 장애인의 접근권은 인간의 존엄과 가치·평등권·인간다운 생활을 할 권리에서 도출되지만 구체적 편의시설 설치청구권은 법률에 의해 형성된다는 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.56,
+          "authority": "대법원 2022다289051 전원합의체: 다른 정책수단으로 대상 시설의 설치율이 상당한 수준에 이르렀다면 시행령 미개정의 정당한 사유 판단에서 고려할 수 있다는 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.62,
+          "authority": "대법원 2018다212610 전원합의체 및 2022다289051 전원합의체의 국가배상법상 조직적·집합적 과실 법리: 개별 공무원 특정이나 개인별 구체적 과실 입증이 필수는 아님(전문 미인출)",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": true,
+          "confidence": 0.55,
+          "authority": "대법원 2022다289051 전원합의체: 시행령 미개정의 객관적 정당성 상실 여부와 담당 공무원의 개정의무 인식 가능성에 관한 과실 판단을 구별한다는 취지(전문 미인출)",
+          "source": "8768"
+        }
+      },
+      "derivation": "진리표 = ㄱ○·ㄴ○·ㄷ○·ㄹ○ → ③(=answer 3)",
+      "min_prop_confidence": 0.55,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022다289051",
+        "2018다212610"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 22,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.85,
+          "authority": "각하판결의 기판력은 확정된 소송요건 흠결에 미치므로 그 흠결을 보완한 뒤의 재소까지 일률적으로 금지하지 않는다는 행정소송법리",
+          "source": "8768"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2022두50571: 당연퇴직 뒤에도 정직처분 취소로 정직기간 중 보수 지급청구가 가능하다면 처분 취소를 구할 법률상 이익이 있다는 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.92,
+          "authority": "행정소송법 제30조 제2항 및 제34조: 거부처분 취소판결 뒤 재처분의무를 이행하지 않으면 당사자 신청에 따른 간접강제가 가능함",
+          "source": "8768"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.85,
+          "authority": "행정소송법 제30조의 기속력은 판결의 주문과 그 전제가 된 처분사유에 미치므로 기본적 사실관계의 동일성이 없는 새 사유에 의한 처분까지 금지하지 않음",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.82,
+          "authority": "행정심판법 제49조의 기속력은 피청구인 등 행정기관을 구속할 뿐 법원을 구속하는 기판력이 아니어서 사실관계나 법률관계를 확정하지 않음",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022두50571"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 23,
+      "answer": 3,
+      "propositions": {
+        "ㄱ": {
+          "truth": false,
+          "confidence": 0.58,
+          "authority": "민사소송법 제344조 제2항의 공무원 직무상 비밀문서 예외는 공무원이 아닌 금융감독원 직원의 직무문서에 그대로 유추 적용되지 않는다는 대법원 판례 취지(전문·사건번호 미인출)",
+          "source": "지식"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2022두65559: 군사법원법 제309조의3의 열람·등사 규정은 정보공개법보다 우선하는 특별규정이므로 피고인·변호인의 군검사 보관 기록 공개청구에 정보공개법을 적용할 수 없다는 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.8,
+          "authority": "행정기본법 제36조 제4항·제6항: 이의신청 결과 통지를 받은 뒤 취소소송을 제기하는 경우 그 통지를 받은 날부터 제소기간을 기산함",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.88,
+          "authority": "행정소송규칙 제11조: 법원은 비공개 정보를 제출하게 하여 공개하지 않는 방식으로 열람·심사할 수 있음",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳은 것 = ㄴ, ㄷ → ③(=answer 3)",
+      "min_prop_confidence": 0.58,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022두65559"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 24,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.82,
+          "authority": "토지보상법 제30조: 사업시행자가 재결신청 청구를 받은 날부터 60일 내 신청하지 않은 경우 토지소유자가 재결청구권을 직접 행사하는 것이 아니라 지연가산금과 거부·부작위 구제의 문제가 됨",
+          "source": "8768"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.78,
+          "authority": "토지보상법상 보상금 지급은 관할 토지수용위원회의 재결 절차를 거치는 구조이므로 재결 없이 곧바로 보상금 지급을 구하는 당사자소송은 허용되지 않는다는 판례 취지(전문 미인출)",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.95,
+          "authority": "토지보상법 제88조: 이의신청은 사업의 진행 및 토지의 수용 또는 사용을 정지시키지 않음",
+          "source": "8768"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.9,
+          "authority": "토지보상법 제85조 제2항: 보상금 증감소송은 토지소유자와 사업시행자를 당사자로 하는 형식적 당사자소송임",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.64,
+          "authority": "대법원 98다60422·2001다24112 등: 사업인정 후에도 협의취득이라는 사법상 계약이 가능하므로 수용재결 뒤 당사자 사이의 임의 협의를 전면 금지할 근거가 없다는 취지(전문 미인출)",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.64,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "98다60422",
+        "2001다24112"
+      ],
+      "fulltext_pulled": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+ "run": 2,
+ "question": 34,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "7128bf88075b27ed3d82ffb2bbf1aac6b9d6960da0fba2806353c82ed6122717",
+ "answer": {
+  "no": 34,
+  "answer": 2,
+  "propositions": {
+   "ㄱ": {
+    "truth": true,
+    "confidence": 0.99,
+    "authority": "행정소송법 제10조 제1항 전문: 관련청구소송 계속 법원은 상당하다고 인정하면 당사자의 신청 또는 직권으로 그 소송을 취소소송 계속 법원에 이송할 수 있음",
+    "source": "korean-law"
+   },
+   "ㄴ": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "대법원 2009. 4. 9. 선고 2008두23153 판결 전문: 취소소송에 병합된 부당이득반환청구는 같은 절차의 판결로 처분이 취소되면 충분하고 그 취소의 확정은 필요하지 않음",
+    "source": "korean-law(fulltext)"
+   },
+   "ㄷ": {
+    "truth": true,
+    "confidence": 0.99,
+    "authority": "대법원 1980. 4. 22. 선고 78누90 판결 및 1997. 3. 14. 선고 95누13708 판결 전문: 본래 취소소송이 부적법하여 각하되면 병합된 손해배상·부당이득반환청구도 소송요건을 흠결하여 각하되어야 함. 97누1990·2000두697·2009두10963도 동일 법리",
+    "source": "korean-law(fulltext)"
+   },
+   "ㄹ": {
+    "truth": true,
+    "confidence": 0.99,
+    "authority": "행정소송법 제16조 제1항·제3항 전문: 소송결과에 따라 권리 또는 이익 침해를 받을 제3자의 참가신청 및 그 신청 각하결정에 대한 즉시항고를 명시",
+    "source": "korean-law"
+   },
+   "ㅁ": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "행정소송법 제17조 제1항 전문: 법원은 당사자 또는 해당 행정청의 신청뿐 아니라 직권으로도 다른 행정청을 소송에 참가시킬 수 있음",
+    "source": "korean-law"
+   }
+  },
+  "derivation": "전문 재검증 T·F·T·T·F, 옳은 지문 = ㄱ·ㄷ·ㄹ → ②(=answer 2). ㄴ·ㄷ의 blind challenger는 동일쟁점 대법원 전문에 의해 배척됨",
+  "min_prop_confidence": 0.99,
+  "contested": false,
+  "gap_class": null,
+  "cited_caseno": [
+   "2008두23153",
+   "78누90",
+   "95누13708",
+   "97누1990",
+   "2000두697",
+   "2009두10963"
+  ],
+  "fulltext_pulled": [
+   "2008두23153",
+   "78누90",
+   "95누13708",
+   "97누1990",
+   "2000두697",
+   "2009두10963"
+  ],
+  "votes": {
+   "V1": 2,
+   "V2": 2,
+   "V3": 2
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [],
+  "redteam": "blind A(ㄴ=true)는 행정소송법 제10조·제30조의 확정 필요 논리를 세웠으나 2008두23153의 동일쟁점 전문이 명시적으로 배척했다. blind B(ㄷ=false)는 행정소송법 제8조 제2항과 민사소송법 제34조에 따른 분리·이송 논리를 세웠으나 78누90·95누13708의 손해배상·부당이득반환 동일쟁점 전문이 정면으로 배척했다. 두 incumbent 모두 1차자료 기준 우세",
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol"
+ }
+}

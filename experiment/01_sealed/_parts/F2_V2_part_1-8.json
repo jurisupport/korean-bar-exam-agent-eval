@@ -1,0 +1,357 @@
+{
+  "model": "gpt-5.6-sol",
+  "variant": "V2",
+  "answers": [
+    {
+      "no": 1,
+      "answer": 5,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "1948년 헌법 제18조 제2항의 이익균점권, 1980년 헌법의 적정임금 보장 노력, 1987년 헌법 제32조 제1항의 최저임금제 시행 의무",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.85,
+          "authority": "1954년 헌법 개정 당시 대통령·민의원 또는 참의원 재적의원 3분의 1 이상·민의원의원 선거권자 50만인 이상에게 인정된 개헌안 제안권",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.88,
+          "authority": "1960년 제3차 개정헌법의 중앙선거위원회 설치 규정",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.87,
+          "authority": "1962년 제5차 개정헌법의 국회의원 입후보 정당추천 요건",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.92,
+          "authority": "1972년 헌법상 통일주체국민회의 선출 국회의원은 정수의 3분의 1이고 후보자는 국무총리가 아니라 대통령이 일괄추천",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ⑤ → ⑤(=answer 5)",
+      "min_prop_confidence": 0.85,
+      "contested": false,
+      "gap_class": "none",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 2,
+      "answer": 1,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.6,
+          "authority": "헌재 1999헌마494의 입법작용에 대한 적법절차 적용 법리와 일반 입법절차의 성격; 적법절차가 개별적 청문절차를 당연히 요구하여 국회 입법권을 제약한다는 명제는 성립하지 않음",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2004헌나1: 적법한 절차에 따라 법 위반이 충분히 소명된 탄핵소추는 정치적 목적이 있다는 사정만으로 소추권 남용이 되지 않음",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 97헌가14의 한미행정협정 법적 성격에 관한 판시와 헌법 제60조 제1항; 명칭과 무관하게 조약에 해당하면 국회 동의 대상이 될 수 있음",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2025헌라1 다수의견: 본회의 선출로 이미 구체화된 국회의 권한을 방어하기 위한 권한쟁의에서 국회의장은 별도 본회의 의결 없이 국회를 대표할 수 있음",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2015헌라1: 법률 제·개정행위 권한쟁의의 피청구인은 국회이고 국회의장이나 위원장은 피청구인적격이 없어 그들을 상대로 한 청구는 부적법",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ① → ①(=answer 1)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "1999헌마494",
+        "2004헌나1",
+        "97헌가14",
+        "2025헌라1",
+        "2015헌라1"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 3,
+      "answer": 5,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법 제65조 제2항 및 헌재 2004헌나1·2025헌나1: 대통령의 직접적 민주적 정당성, 국가원수 지위와 광범한 권한을 고려한 가중 탄핵소추 정족수",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2025헌나1: 국무총리의 대통령 권한대행은 대통령과 달리 국민의 직접 선거로 부여된 민주적 정당성을 갖지 않는 잠정적 직무수행",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법 제66조 제4항·제86조 제2항 및 헌재 2025헌나1: 국무총리는 대통령의 명을 받아 행정각부를 통할하는 제1의 보좌기관이고 행정의 최종 결정권자는 대통령",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2025헌라1: 국회 선출 절차에 흠결이 없는 헌법재판관 후보자에 관하여 대통령 또는 권한대행은 임명할 헌법상 의무를 부담",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌재 2025헌나1: 탄핵소추 정족수는 권한대행 중인 권한이 아니라 본래 신분인 국무총리를 기준으로 하므로 대통령에 대한 재적의원 3분의 2 정족수가 적용되지 않음",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ⑤ → ⑤(=answer 5)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2004헌나1",
+        "2025헌나1",
+        "2025헌라1"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 4,
+      "answer": 4,
+      "propositions": {
+        "ㄱ": {
+          "truth": false,
+          "confidence": 0.94,
+          "authority": "법원조직법 제8조: 상급법원의 재판에서 한 판단은 해당 사건에 관하여 하급심을 기속할 뿐 동종 사건 일반을 기속하지 않음",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법 제107조 제2항 및 법원조직법 제7조 제1항: 명령·규칙의 위헌·위법 심사는 각급법원이 할 수 있고 대법원에서는 대법관 전원의 3분의 2 이상으로 구성된 합의체가 담당",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.88,
+          "authority": "헌법 제107조 제2항의 명령·규칙 심사권은 지방자치단체의 조례에도 미쳐 법원이 재판의 전제가 된 조례의 위헌·위법 여부를 심사할 수 있음",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": true,
+          "confidence": 0.93,
+          "authority": "행정소송법 제6조 제1항: 대법원이 명령 또는 규칙의 무효를 선언한 확정판결을 한 경우 지체 없이 행정안전부장관에게 통보",
+          "source": "8768"
+        }
+      },
+      "derivation": "참인 지문 = ㄴ·ㄷ·ㄹ → ④(=answer 4)",
+      "min_prop_confidence": 0.88,
+      "contested": false,
+      "gap_class": "none",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 5,
+      "answer": 2,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2024헌나1 방송통신위원회 위원장 탄핵사건의 공영방송 이사 선임절차 및 방송의 자유·독립 보장에 관한 판시",
+          "source": "8768"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌법상 행정각부 규정과 헌재 2020헌마264등의 독립행정기관 설치 법리: 법률로 행정각부에 속하지 않는 독립기관을 두는 것이 헌법상 당연히 금지되지는 않음",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2020헌마264등: 고위공직자범죄수사처와 같은 독립기관의 설치·조직에는 입법형성권이 인정되고 명백히 자의적이거나 현저히 불합리한 경우에 한해 한계를 일탈",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.82,
+          "authority": "헌법 제97조 및 감사원법 제24조: 직무감찰은 대통령의 행정통제 기능에 속하므로 국회·법원·헌법재판소·선거관리위원회 등 독립 헌법기관은 감찰대상에서 제외",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.84,
+          "authority": "헌법 제114조·제115조: 선거관리위원회는 선거와 국민투표의 공정한 관리 및 정당사무 처리를 위해 독립성을 제도화한 헌법기관",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ② → ②(=answer 2)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2024헌나1",
+        "2020헌마264등"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 6,
+      "answer": 5,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2022헌가33: 가축전염병 예방을 위한 살처분 명령은 재산권의 사회적 제약을 구체화한 헌법 제23조 제1항·제2항의 제한이지 같은 조 제3항의 공용침해가 아님",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2022헌가33: 재산권의 내용·한계를 정하는 규율이라도 수인한도를 넘는 예외적이고 과도한 부담에는 보상 등 부담조정 장치가 필요",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2022헌가33: 과도한 부담을 조정하는 구체적 방식의 선택에는 입법자에게 넓은 형성재량이 인정됨",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2022헌가33: 부담조정 규정의 재산권 침해 여부는 입법자가 보상대상·방식에 관한 형성재량의 한계를 일탈했는지를 기준으로 심사",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌재 2022헌가33: 계약사육농가에만 살처분 보상금을 지급하고 가축소유자를 배제한 규정은 재산권을 침해하여 헌법불합치이며 2025년 12월 31일까지 계속 적용",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ⑤ → ⑤(=answer 5)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022헌가33"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 7,
+      "answer": 4,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2016헌마33·2014헌마760등: 한정위헌결정의 기속력을 부인한 재심기각 재판은 위헌결정의 기속력에 반하는 예외적 법원재판으로 헌법소원 대상",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제75조 제3항 및 헌재 2016헌마33·2014헌마760등: 기속력에 반한 재심기각 재판이 재판청구권을 침해하면 헌법재판소가 이를 취소할 수 있음",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌법재판소법 제47조 제4항: 위헌으로 결정된 형벌법규에 근거한 유죄확정판결에는 당사자의 제68조 제2항 청구 여부와 무관하게 재심을 청구할 수 있어 법적 근거가 없다는 명제는 틀림",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 95헌마77 및 2010헌가2 관련 법리: 한정위헌결정 전에 이미 확정된 원판결은 그 결정의 기속력에 반한 재판이 아니므로 재판소원 대상이 되지 않음",
+          "source": "8768"
+        }
+      },
+      "derivation": "참인 지문 = ㄱ·ㄴ·ㄹ → ④(=answer 4)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2010헌가2",
+        "2016헌마33",
+        "2014헌마760등",
+        "95헌마77"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 8,
+      "answer": 1,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌재 2008헌가14의 변경된 양벌규정 법리: 문언상 종업원의 위반행위만으로 영업주를 처벌하는 명백한 무과실 양벌규정에 감독상 과실요건을 추가하는 합헌적 해석은 문언의 한계를 넘어 허용되지 않음; 2005헌가10 법리 변경",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2000헌가5·2011헌바117 및 2014헌마760등: 한정위헌결정은 질적으로 일부 위헌인 법률조항의 적용범위를 제거하는 법률 위헌결정에 해당",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "군형법 제94조와 군의 정치적 중립 보호목적에 관한 판례: 군인의 정치적 의견 중 군의 정치적 중립을 해칠 수 있고 군인 지위를 이용해 공표한 경우로 한정한 해석은 문언·목적의 범위 안에 있음",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "대법원 2004년 8월 20일 선고 군인사법 제48조 제4항 판결: 공소기각 형식이라도 실체상 무죄판결이 명백한 경우를 '무죄의 선고'에 포함한 해석은 문언의 가능한 범위 안에 있음",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 전원합의체 2019도3047: 사적 공간에서 합의하여 이루어진 동성 군인 간 성행위로 군이라는 공동사회의 건전한 생활과 군기를 직접적·구체적으로 침해하지 않은 경우 군형법상 추행죄 적용대상에서 제외",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ① → ①(=answer 1)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2008헌가14",
+        "2005헌가10",
+        "2000헌가5",
+        "2011헌바117",
+        "2014헌마760등",
+        "2019도3047"
+      ],
+      "fulltext_pulled": []
+    }
+  ]
+}

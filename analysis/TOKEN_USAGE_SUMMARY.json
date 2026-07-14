@@ -1,0 +1,33 @@
+{
+  "scope": "canonical completed Codex calls only; recovery and failed attempts excluded",
+  "f0_off": {
+    "calls": 15,
+    "input_tokens": 2540111,
+    "cached_input_tokens": 2108928,
+    "output_tokens": 198183,
+    "reasoning_output_tokens": 81016
+  },
+  "f_on_first_pass": {
+    "calls": 45,
+    "input_tokens": 174433072,
+    "cached_input_tokens": 161565952,
+    "output_tokens": 1068519,
+    "reasoning_output_tokens": 445507
+  },
+  "f_on_deepdive": {
+    "calls": 113,
+    "input_tokens": 551091132,
+    "cached_input_tokens": 529688576,
+    "output_tokens": 2567610,
+    "reasoning_output_tokens": 1063693
+  },
+  "total": {
+    "calls": 173,
+    "input_tokens": 728064315,
+    "cached_input_tokens": 693363456,
+    "noncached_input_tokens": 34700859,
+    "output_tokens": 3834312,
+    "reasoning_output_tokens": 1590216,
+    "cached_input_share": 0.952338
+  }
+}

@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","variant":"V1","answers":[
+  {"no":9,"answer":4,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"대법원 현행 대체복무제 거부 사건의 교정시설 복무는 형벌·수형과 법적·사회적 의미가 다르다는 판시 취지(전문 미인출)","source":"8768|지식"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2024.5.30. 2021헌마117: 교정시설 36개월 합숙 대체복무는 양심의 자유를 침해하지 않는다는 결정 취지(전문 미인출)","source":"8768"},
+    "③":{"truth":true,"confidence":0.6,"authority":"대법원 현행 대체복무제 거부 사건의 공동생활관 CCTV 운영만으로 징벌적·과도한 처우라 보기 어렵다는 판시 취지(전문 미인출)","source":"지식"},
+    "④":{"truth":false,"confidence":0.55,"authority":"대체복무요원의 공적 복무와 정치적 중립성에 비추어 정당가입 제한이 과잉금지원칙에 위반된다고 단정할 수 없다는 판례 취지(전문 미인출)","source":"지식"},
+    "⑤":{"truth":true,"confidence":0.6,"authority":"대법원 2016도10912 전원합의체의 양심적 병역거부 법리 및 현행 국가관리 대체복무까지 거부한 사건의 유죄 판시 취지(전문 미인출)","source":"8768|지식"}},
+   "derivation":"옳지 않은 것은 ④ → ④(=answer 4)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2021헌마117","2016도10912"],"fulltext_pulled":[]},
+  {"no":10,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"최저임금법 제8조 제1항은 장관의 결정권한·절차를 정하고 구체적 최저임금은 별도 결정으로 형성되므로 법률조항 자체의 기본권침해 직접성이 부정된다는 판례 취지(전문 미인출)","source":"8768|지식"},
+    "②":{"truth":true,"confidence":0.65,"authority":"최저임금법 제14조 제1항은 최저임금위원회의 구성을 정한 조직규범이어서 일반 국민에 대한 직접적 기본권침해가 없다는 판례 취지(전문 미인출)","source":"8768|지식"},
+    "③":{"truth":true,"confidence":0.8,"authority":"근로기준법 제53조 제1항은 계약내용을 제한하고 사용자의 영업활동 방식을 제한하므로 계약의 자유와 사용자의 직업수행의 자유를 제한한다는 통설","source":"8768"},
+    "④":{"truth":true,"confidence":0.75,"authority":"영리획득의 단순한 기회 및 기업활동의 사실적·법적 여건은 헌법 제23조 재산권의 보호대상이 아니라는 헌재 법리","source":"8768|지식"},
+    "⑤":{"truth":false,"confidence":0.65,"authority":"헌재 2004헌마670은 근로의 권리에 일할 환경에 관한 권리가 포함됨을 인정하지만, 근로시간 상한은 합리적 근로조건을 보장하는 규율이므로 그 사실만으로 근로의 권리 침해가 되지 않는다는 판례 취지(전문 미인출)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ⑤ → ⑤(=answer 5)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2004헌마670"],"fulltext_pulled":[]},
+  {"no":11,"answer":5,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.6,"authority":"형사소송법상 항소이유서 미제출 시 항소기각결정 규정은 법원의 재판이라는 집행행위를 매개로 적용되는 재판규범이므로 직접성이 부정된다는 헌재 판시 취지(전문 미인출)","source":"8768|지식"},
+    "ㄴ":{"truth":true,"confidence":0.6,"authority":"인가공증인 정원 제한의 직접 수범자는 법무법인이지만 소속 변호사의 직업수행에도 직접 법적 영향을 미쳐 자기관련성이 인정될 수 있다는 헌재 판시 취지(전문 미인출)","source":"지식"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"헌재 2018헌마1208등·2018헌마974: 청구인 추가는 표시정정 범위를 넘는 임의적 당사자변경으로 허용되지 않는다는 판시(전문 미인출)","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"헌재 89헌마163·2007헌마106 등: 법령소원에서 합일확정이 필요한 제3자는 민사소송법 제83조에 따라 공동심판참가할 수 있고 참가신청도 청구기간을 지켜야 한다는 법리(전문 미인출)","source":"8768"}},
+   "derivation":"ㄱ○·ㄴ○·ㄷ○·ㄹ○의 조합은 ⑤ → ⑤(=answer 5)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2018헌마1208","2018헌마974","89헌마163","2007헌마106"],"fulltext_pulled":[]},
+  {"no":12,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.95,"authority":"헌법 제117조 제1항 및 지방자치법 제28조 제1항: 법령 범위에서 사무에 관한 조례 제정, 권리 제한·의무 부과·벌칙은 법률 위임 필요","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"헌재 92헌마264등: 조례 제정권자는 민주적 정당성을 가진 지방의회이므로 조례 위임은 법규명령 위임처럼 엄격한 구체성까지 요구되지 않고 포괄적 위임도 가능하다는 법리(전문 미인출)","source":"8768"},
+    "③":{"truth":true,"confidence":0.75,"authority":"지방자치법 제28조의 ‘법령’에는 법률·법규명령과 법령보충적 행정규칙 등 대외적 법규성을 가진 규범이 포함된다는 대법원 법리","source":"8768"},
+    "④":{"truth":true,"confidence":0.9,"authority":"지방자치법 제32조 제3항: 이송받은 날부터 20일 내 이유를 붙여 환부·재의요구하며 일부 또는 수정 재의요구는 불가","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.95,"authority":"지방자치법 제19조 및 주민조례발안에 관한 법률: 주민의 조례 제정·개정·폐지 청구권","source":"8768"}},
+   "derivation":"옳지 않은 것은 ② → ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["92헌마264"],"fulltext_pulled":[]},
+  {"no":13,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"헌법 제15조의 직업의 자유는 직업선택과 직업수행을 포함하고 법인도 성질상 직업수행의 자유의 주체가 된다는 확립된 헌재 법리","source":"8768"},
+    "②":{"truth":true,"confidence":0.9,"authority":"헌재 94헌마113: 직업의 자유는 사회적 시장경제질서라는 객관적 법질서의 구성요소이기도 하다는 판시","source":"8768"},
+    "③":{"truth":false,"confidence":0.6,"authority":"병역법상 사회복무요원의 무허가 겸직에 대한 경고 및 5일 복무연장은 복무전념과 병역의무의 공평을 위한 것으로 직업의 자유를 침해하지 않는다는 헌재 판시 취지(전문 미인출)","source":"지식"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2000헌마764: 비사업용 자동차의 타인 광고를 제한하는 것은 도로교통 안전·도시미관을 위한 광고방법 규제로서 비례원칙에 반하지 않는다는 판시 취지(전문 미인출)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2007헌마1083등: 적법한 고용허가로 정당한 노동인력 지위를 얻은 외국인의 직장선택의 자유는 인간의 권리로 보장된다는 판시(전문 미인출)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["94헌마113","2000헌마764","2007헌마1083"],"fulltext_pulled":[]},
+  {"no":14,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.95,"authority":"헌법 제119조 제1항·제2항을 종합한 사회적 시장경제질서 법리: 사유재산·시장경제를 기초로 하면서 경제 규제·조정도 허용","source":"8768"},
+    "②":{"truth":false,"confidence":0.98,"authority":"헌법 제123조 제4항은 농수산물 수급균형과 유통구조 개선에 의한 가격안정을 규정할 뿐 농산물 최저가격제 시행을 명시하지 않음","source":"지식"},
+    "③":{"truth":true,"confidence":0.99,"authority":"헌법 제126조: 국방상 또는 국민경제상 긴절한 필요로 법률이 정하는 경우 사영기업의 국유·공유 이전 또는 경영 통제가 예외적으로 허용","source":"지식"},
+    "④":{"truth":false,"confidence":0.98,"authority":"헌법 제121조 제1항은 소작제도를 금지하고 제2항은 농업생산성·합리적 이용 또는 불가피한 사정의 농지 임대차·위탁경영만 예외적으로 허용","source":"지식"},
+    "⑤":{"truth":false,"confidence":0.9,"authority":"헌법 제119조 제2항의 적정한 소득분배 목표는 광범위한 조세입법 형성권의 지침일 뿐 누진세율 종합과세라는 특정 수단의 구체적 의무를 직접 부과하지 않음","source":"8768|지식"}},
+   "derivation":"옳은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.9,"contested":false,"gap_class":"none","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":15,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌재 98헌바70: 텔레비전방송수신료는 특정 공익사업인 공영방송 재원 조달을 위해 특정집단에 부과되는 특별부담금으로 조세·수익자부담금과 구별된다는 판시(전문 미인출)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.6,"authority":"수신료의 구체적 고지방법은 금액·납부의무자 범위 같은 본질사항과 달리 기술적 징수절차의 세부로서 법률이 직접 규정해야 할 사항은 아니라는 수신료 분리고지 결정 취지(전문 미인출)","source":"8768|지식"},
+    "ㄷ":{"truth":false,"confidence":0.6,"authority":"분리고지 조항은 방송운영의 자유를 새로 제한하는 위임명령이 아니라 방송법상 수신료 징수의 구체적 집행방법을 정한 집행명령이라는 수신료 분리고지 결정 취지(전문 미인출)","source":"8768|지식"},
+    "ㄹ":{"truth":false,"confidence":0.6,"authority":"통합징수 방식의 영속에 대한 보호가치 있는 신뢰가 인정되기 어렵고 분리고지의 공익과 제도전환 사정상 신뢰보호원칙 위반이 아니라는 수신료 분리고지 결정 취지(전문 미인출)","source":"지식"}},
+   "derivation":"옳은 것은 ㄱ·ㄴ이므로 ① → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["98헌바70"],"fulltext_pulled":[]},
+  {"no":16,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.8,"authority":"헌법 제35조 제1항의 환경에는 자연환경과 생활환경이 포함되고 국가의 환경보전의무에는 기후위기 대응의무도 포함된다는 헌재 2020헌마389 결정 취지(전문 미인출)","source":"8768"},
+    "②":{"truth":true,"confidence":0.8,"authority":"헌재 2020헌마389: 위험상황에 대응하는 보호조치가 그 성격에 상응하는 필요한 최소한의 성격을 갖추었는지를 과소보호금지원칙으로 심사","source":"8768"},
+    "③":{"truth":false,"confidence":0.65,"authority":"헌재 2020헌마389: 2031~2049년 감축목표에 정량적 대강조차 법률로 정하지 않은 것은 과소보호금지원칙과 의회유보원칙을 위반한다는 헌법불합치 결정(전문 미인출)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2020헌마389: 2031~2049년 정량기준 부재는 점진적·지속적 감축을 담보하지 못해 기후위기 위험에 상응하는 최소 보호조치를 결여한다는 판시(전문 미인출)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2020헌마389: 2030년 40% 목표 및 부문별·연도별 감축목표는 재판관 법정의견상 과소보호금지원칙에 위반되지 않는다는 판시(전문 미인출)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2020헌마389"],"fulltext_pulled":[]}
+]}

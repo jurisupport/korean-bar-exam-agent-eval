@@ -1,0 +1,53 @@
+{"model":"gpt-5.6-sol","variant":"V2","answers":[
+  {"no":25,"answer":5,"propositions":{
+    "①":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판시: 사증발급은 입국허가 자체가 아니라 입국허가의 전제·추천적 성격이다(전문 인출 실패)","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판시: 사증발급 관련 규정의 주된 보호목적은 국가의 공익이고 외국인의 사익·입국권 보호가 아니다(전문 인출 실패)","source":"8768"},
+    "③":{"truth":false,"confidence":0.65,"authority":"대법원 2018. 5. 15. 선고 2014두42506 판시: 대한민국 국민의 배우자인 외국인 신청인에게 사증발급 거부취소를 구할 법률상 이익이 인정되지 않는다(전문 인출 실패)","source":"8768"},
+    "④":{"truth":false,"confidence":0.65,"authority":"행정절차법 제3조 제2항 제9호 관련 판례 법리: 출입국 사항이라는 이유만으로 일률 배제되지 않고 해당 처분의 성질상 절차 적용이 곤란·불필요한지도 심사한다(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"사증발급 거부는 신청한 수익적 처분을 하지 않는 거부처분으로서 상대방에게 새 의무를 부과하거나 기존 권익을 직접 제한하는 침익적 처분은 아니다(판례 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2014두42506"],"fulltext_pulled":[]},
+  {"no":26,"answer":3,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.65,"authority":"대법원 2024. 4. 4. 선고 2022두56661 판시 취지: 면접일 변경 거부는 종교적 불이익의 직접 원인으로 독자적 위법 판단 대상이므로 후행 불합격처분에 흡수된다고 볼 수 없다(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2024. 4. 4. 선고 2022두56661 판시: 공립 법학전문대학원이 과도한 부담 없이 종교적 신념을 배려할 수 있는데도 면접일 변경을 거부한 것은 평등원칙에 반한다(전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"대법원 2024. 4. 4. 선고 2022두56661 판시 취지: 다음 연도 입학전형에 다시 응시할 수 있어 불합격처분 취소를 구할 법률상 이익이 부정되지 않는다(전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"대법원 2024. 4. 4. 선고 2022두56661 판시 취지: 국립대학교는 공권력 주체로서 기본권을 존중할 의무가 있으므로 사적 교육기관보다 재량통제와 위법성 심사의 범위가 넓다(전문 인출 실패)","source":"8768"}},
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○ = ③ → ③(=answer 3)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2022두56661"],"fulltext_pulled":[]},
+  {"no":27,"answer":2,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.65,"authority":"대법원 1995. 3. 10. 선고 94누14018 판시: 장례식장 용도 사용중지의무는 비대체적 부작위의무이므로 행정대집행의 대상이 아니다(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2021. 2. 4. 선고 2020두48390 판시: 이미 알려진 자동차 관련 여러 위반행위에는 하나의 과징금 부과처분을 하되 법정 상한을 적용하여야 하고 분할 부과할 수 없다(전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"건축법상 시정명령은 상대방이 위법 상태를 시정할 법률상·사실상 지위와 가능성을 갖는지를 전제로 하므로 이를 묻지 않고 언제나 명령할 수 있다는 명제는 틀리다(판례 전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.85,"authority":"질서위반행위규제법 제20조: 당사자가 기간 내 이의를 제기하면 행정청의 과태료 부과처분은 효력을 상실한다","source":"8768"},
+    "ㅁ":{"truth":false,"confidence":0.65,"authority":"대법원 2019. 6. 27. 선고 2018두49130 판시: 병무청장의 병역의무 기피자 인적사항 공개결정은 외부적·최종적 공권력 행사로서 항고소송의 대상인 처분이다(전문 인출 실패)","source":"8768"}},
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○·ㅁ× = ② → ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["94누14018","2020두48390","2018두49130"],"fulltext_pulled":[]},
+  {"no":28,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.65,"authority":"공법인이라는 사정만으로 조합과 임원 사이의 모든 관계가 공법관계가 되는 것은 아니며, 특별한 공법적 규율 없이 조합장 선임·해임의 효력을 다투는 관계를 곧바로 당사자소송 대상으로 볼 수 없다(정면 판례 전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"대법원 2025. 2. 20. 선고 2024두52427 판시: 신탁회사가 사업시행자인 경우 토지등소유자는 위탁자 지위 확인을 공법상 당사자소송으로 구할 수 있다(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"행정소송법 제21조·제42조 및 대법원 전원합의체 1995. 2. 24. 선고 94다31235 취지: 고의·중대한 과실이 없으면 법원은 적법한 소송형태로 변경하도록 석명하되 변경 후 소가 명백히 부적법한 경우는 제외된다(전문 인출 실패)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"민간투자사업 실시협약에 따른 재정지원금 청구는 공법상 당사자소송으로서 법원이 협약상 지급요건을 심리하여 구체적 금액까지 판단한다(정면 판례 전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌법재판소 2022. 2. 24. 선고 2020헌가12 결정으로 국가에 대한 가집행을 일률적으로 금지하던 구 행정소송법 제43조가 효력을 상실하여 재산권 관계의 당사자소송에서도 가집행이 가능하다(결정 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것 = ① → ①(=answer 1)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2024두52427","94다31235","2020헌가12"],"fulltext_pulled":[]},
+  {"no":29,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"산업집적활성화 및 공장설립에 관한 법률상 입주계약으로 공장설립승인이 의제되더라도 의제대상에 포함되지 않은 건축허가·개발행위허가는 별도로 받아야 한다(판례 전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2018. 11. 29. 산지전용허가 의제 취소 판결: 창업사업계획 승인으로 의제된 산지전용허가의 취소는 독립하여 항고소송의 대상이 되는 처분이다(사건번호·전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"대법원 2018. 11. 29. 산지전용허가 의제 취소 판결 취지: 주된 인허가와 의제된 인허가가 가분적이면 의제된 인허가만 별도로 철회·취소할 수 있고 그 처분을 독립하여 다툴 수 있다(사건번호·전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.65,"authority":"인허가 의제에서 관계 행정청과 협의된 사항만 의제되며, 의제된 개별 인허가의 고시 하자는 그 의제효 발생 여부의 문제일 뿐 언제나 주된 인허가 자체의 위법사유가 되는 것은 아니다(판례 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳은 것 = ㄱ·ㄴ·ㄷ = ④ → ④(=answer 4)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":30,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"공유재산 사용허가는 재량행위이지만 사실오인, 비례·평등·목적원칙 위반 또는 부정한 동기가 있으면 재량권 일탈·남용으로 위법하다(판례 전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 판례 법리: 공법상 계약을 체결한 행정청은 특별한 사정이나 공익상 필요가 없는 한 그 계약과 모순되지 않게 수익적 처분의 재량을 행사하여야 한다(정면 판례 전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"구 국민건강보험법 제52조는 부당이득을 전부 또는 일부 징수하도록 하여 징수 범위에 재량을 인정하므로 전액 징수만 가능한 기속행위가 아니다(판례 전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.65,"authority":"행정청이 유리한 사실을 이미 알고도 고려하지 않은 것은 고려해야 할 요소의 누락 또는 이익형량의 하자이지 사실관계를 잘못 인식한 사실오인이라고 할 수 없다(정면 판례 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳은 것 = ㄱ·ㄴ = ① → ①(=answer 1)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":31,"answer":1,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"행정소송법 제20조 제3항·제8조 제2항 및 민사소송법 제173조: 90일의 제소기간은 불변기간이고 당사자가 책임질 수 없는 사유가 있으면 소송행위의 추후보완이 가능하다","source":"8768"},
+    "②":{"truth":false,"confidence":0.85,"authority":"행정절차법 제15조 제3항: 송달할 주소 등을 통상적인 방법으로 확인할 수 없는 경우 공고일부터 14일이 지나야 효력이 발생하므로 5일이라는 명제는 틀리다","source":"8768"},
+    "③":{"truth":false,"confidence":0.85,"authority":"행정소송법 제21조 제4항: 당사자소송을 취소소송으로 변경하면 최초의 소가 제기된 때에 변경된 소가 제기된 것으로 보므로 변경신청일을 기준으로 하지 않는다","source":"8768"},
+    "④":{"truth":false,"confidence":0.65,"authority":"대법원 2007. 4. 27. 선고 2004두9302 판시: 제재처분을 유리하게 변경해도 변경된 내용의 당초 처분이 남으므로 제소기간은 당초 처분을 기준으로 한다(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.65,"authority":"행정심판 재결이 본안판단을 하였더라도 법원은 전심절차의 적법성 및 심판청구기간 준수 여부를 독립하여 심사하므로 재결 판단에 기속되지 않는다(정면 판례 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳은 것 = ① → ①(=answer 1)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2004두9302"],"fulltext_pulled":[]},
+  {"no":32,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"과세 등 금전부과처분이 확정되어 존속하는 동안에는 중대·명백한 하자로 무효가 아닌 한 납부의무가 발생하므로 그 이행비용 상당 손해는 처분 시 현실화된다(정면 판례 전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":false,"confidence":0.65,"authority":"헌법재판소 재판관이 적법한 기간 내 청구를 기간 도과로 오인하여 각하한 사안에서 다른 불복·시정수단이 없어 국가배상책임을 인정한 판례 취지상, 본안 기각 가능성만으로 책임이 당연히 부정되지는 않는다(사건번호·전문 인출 실패)","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.65,"authority":"국가배상법 제2조의 상당인과관계 판단에는 직무상 의무의 보호목적이 고려되므로 순전히 공공 일반의 이익이나 행정 내부질서만을 위한 의무 위반만으로 제3자 손해와의 상당인과관계가 곧 인정되지는 않는다(판례 전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것 = ㄴ·ㄷ = ④ → ④(=answer 4)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]}
+]}

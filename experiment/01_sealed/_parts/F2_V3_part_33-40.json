@@ -1,0 +1,369 @@
+{
+  "model": "gpt-5.6-sol",
+  "variant": "V3",
+  "answers": [
+    {
+      "no": 33,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2019. 6. 27. 선고 2018두49130 판결: 행정절차법상 처분절차 준수 여부는 본안에서 판단할 사항이라는 판시",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "행정절차법 제21조 제4항 제3호·제22조 및 대법원 2006. 4. 14. 선고 2005두2506 판결의 불특정 다수인을 상대방으로 하는 고시형 처분 법리",
+          "source": "8768"
+        },
+        "③": {
+          "truth": false,
+          "confidence": 0.9,
+          "authority": "행정절차법 제19조 제1항: 처리기간은 설정·공표 대상이고 그 도과만으로 처분의 절차상 취소사유가 되는 것은 아님",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "행정절차법 제22조 제1항·제4항: 법정 청문 대상 처분은 예외사유가 없는 한 청문을 거쳐야 한다는 강행적 절차법리",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "행정절차법 제20조 제1항 단서: 처분기준의 내용이 법령에 구체적으로 규정되어 있는 경우 설정·공표의무의 예외",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·T·F·T·T, 옳지 않은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2018두49130",
+        "2005두2506"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 34,
+      "answer": 2,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.93,
+          "authority": "행정소송법 제10조 제2항: 관련청구소송 계속 법원은 당사자의 신청 또는 직권으로 그 소송을 취소소송 계속 법원에 이송 가능",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2009. 9. 10. 선고 2008두23153 판결: 관련 부당이득반환청구에는 선행 처분 취소판결의 확정까지 요구되지 않는다는 판시",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 1997. 3. 14. 선고 97누1990 판결 및 대법원 2009. 9. 10. 선고 2009두10963 판결: 본소가 부적법하면 관련청구 병합요건도 흠결된다는 판시",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": true,
+          "confidence": 0.93,
+          "authority": "행정소송법 제16조 제1항·제3항: 소송결과에 따라 권리 또는 이익 침해를 받을 제3자의 참가 및 참가신청 각하결정에 대한 즉시항고",
+          "source": "8768"
+        },
+        "ㅁ": {
+          "truth": false,
+          "confidence": 0.93,
+          "authority": "행정소송법 제17조 제1항: 법원은 다른 행정청을 직권으로 소송에 참가시킬 수 있음",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·F·T·T·F, 옳은 지문 = ㄱ·ㄷ·ㄹ → ②(=answer 2)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2008두23153",
+        "97누1990",
+        "2009두10963"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 35,
+      "answer": 4,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "지방자치법상 주민감사청구 전치요건 및 대법원 2016. 5. 27. 선고 2014두8490 판결: 주민소송의 적법요건은 법원의 직권조사사항이라는 법리",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.92,
+          "authority": "지방자치법 제22조 제4항: 행위정지청구는 생명·신체에 중대한 위해나 공공복리를 현저히 저해할 우려가 있으면 허용되지 않음",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "지방자치법 제22조 제2항 제4호 및 대법원 2019. 10. 17. 선고 2018두104 판결: 상대방, 청구할 행위와 법률관계, 청구금액 등을 특정해야 한다는 판시",
+          "source": "8768"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2016. 5. 27. 선고 2014두8490 판결: 적법한 주민감사청구를 감사기관이 위법하게 각하한 경우 별도 취소소송 없이 주민소송을 제기할 수 있다는 판시",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2019. 10. 17. 선고 2018두104 판결: 소 제기 단계에서는 위법행위와 주민 손해의 개연성에 대한 소명으로 족하다는 판시",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·T·T·F·T, 옳지 않은 것 = ④ → ④(=answer 4)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2014두8490",
+        "2018두104"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 36,
+      "answer": 2,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.92,
+          "authority": "행정기본법 제2조 제5호 단서·제30조·제31조: 이행강제금은 행정상 강제에 속하여 행정기본법상 제재처분 정의에서 제외됨",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2022. 1. 27. 선고 2020두39365 판결: 요양기관 업무정지는 대물적 처분이어서 폐업 후 종전 기관이나 같은 개설자의 새 기관에 법률상 근거 없이 부과할 수 없다는 판시",
+          "source": "8768"
+        },
+        "③": {
+          "truth": false,
+          "confidence": 0.96,
+          "authority": "행정기본법 제23조 제1항: 제재처분 제척기간의 기산점은 위반행위가 성립한 날이 아니라 종료된 날임",
+          "source": "8768"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.82,
+          "authority": "대법원 판례법리: 부령 형식의 제재처분 기준이 행정규칙에 불과한 경우 행정청 내부를 구속할 뿐 국민이나 법원을 구속하지 않음",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.93,
+          "authority": "행정기본법 제22조 제1항: 제재처분의 근거 법률은 주체·사유·유형 및 상한을 명확히 규정해야 하나 하한까지 필수적으로 규정하도록 하지 않음",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 F·T·F·F·F, 옳은 것 = ② → ②(=answer 2)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2020두39365"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 37,
+      "answer": 1,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2019. 1. 17. 선고 2016두56721·2016두56738 판결: 도로점용료 감액 경정은 처분 변경으로 하자 치유와 개념상 구별되고 소 제기 후에도 가능하다는 판시",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 판례법리: 객관적 사정을 정확히 조사해야 비로소 밝혀지는 사실오인은 하자가 외관상 명백한 경우가 아님",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 1995. 7. 11. 선고 94누4615 전원합의체 판결: 하자의 중대·명백성은 법규 목적·기능·특수성과 구체적 사정을 함께 합목적적으로 고찰한다는 판시",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 판례법리: 환경영향평가 대상사업에 평가를 전혀 거치지 않은 채 한 승인처분은 중대·명백한 하자로 당연무효",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 1994. 3. 8. 선고 93누10828 판결 및 1995. 3. 28. 선고 94누12920 판결의 표준지공시지가와 수용보상금 재결 사이 하자승계 법리",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 F·T·T·T·T, 옳지 않은 것 = ① → ①(=answer 1)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2016두56721",
+        "2016두56738",
+        "94누4615",
+        "93누10828",
+        "94누12920"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 38,
+      "answer": 5,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2021. 3. 18. 선고 2018두47264 전원합의체 판결: 추상적 사회보장수급권을 구체화하는 신청기간은 특별한 규정이 없는 한 제척기간으로 해석된다는 판시",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2021. 3. 18. 선고 2018두47264 전원합의체 판결 및 대법원 1995. 9. 15. 선고 93누18532 판결: 요건 충족으로 추상적 권리가, 신청에 따른 행정청 결정으로 구체적 지급청구권이 성립한다는 판시",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2021. 3. 18. 선고 2018두47264 전원합의체 판결: 급부신청권을 제한하는 신청기간은 법률 또는 법률의 위임에 따른 법규명령에 근거해야 한다는 법리",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2021. 3. 18. 선고 2018두47264 전원합의체 판결: 급부신청권과 행정청 결정 후의 금전지급청구권은 구별되므로 소멸기간을 달리 정할 수 있다는 판시",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2021. 3. 18. 선고 2018두47264 전원합의체 판결: 추상적 수급권만으로는 곧바로 국가에 급부를 구하는 당사자소송을 제기할 수 없고 신청과 행정청의 구체화 결정이 필요하다는 판시",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·T·T·T·F, 옳지 않은 것 = ⑤ → ⑤(=answer 5)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2018두47264",
+        "93누18532"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 39,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2018. 8. 1. 선고 2014두35379 판결: 행정기관 간 권한 다툼은 통상 내부적 분쟁으로서 상급관청 결정·기관소송·권한쟁의심판으로 해결된다는 판시",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2013. 7. 25. 선고 2011두1214 판결 및 대법원 2018. 8. 1. 선고 2014두35379 판결: 다른 불복수단이 없는 제재조치 상대 행정기관의 항고소송 당사자능력·원고적격을 예외적으로 인정",
+          "source": "8768"
+        },
+        "③": {
+          "truth": false,
+          "confidence": 0.55,
+          "authority": "대법원 2023. 1. 12. 선고 2020두50683 판결: 하도급법상 벌점 부과는 후속 제한요청의 기초자료인 내부적·중간적 조치여서 처분은 아니지만, 처분성 부정만으로 곧 단순한 사실행위라고 단정할 수는 없음",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 판례법리: 국가의 철도운행사업은 사경제적 작용이어서 운행상 과실에는 민법이, 공공 영조물인 철도시설의 설치·관리 하자에는 국가배상법 제5조가 적용됨",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소 결정례: 대한변호사협회는 변호사 등록에 관한 한 공법인·공권력 행사 주체이고 등록사무 관련 규범은 단순 내부·사법상 기준이 아님",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·T·F·T·T; 반대가정상 ③까지 T이면 오답 선지가 없어 ③의 '비처분=단순 사실행위' 비약을 배제, 옳지 않은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.55,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2014두35379",
+        "2011두1214",
+        "2020두50683"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 40,
+      "answer": 4,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 판례법리: 검사의 경고조치는 감찰·인사·평정에서 지속적 불이익의 근거가 되므로 항고소송 대상 처분에 해당",
+          "source": "8768"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌법재판소 2004. 10. 28. 선고 99헌바91 결정: 전문적·기술적이고 경미한 사항으로서 불가피한 경우 행정규칙에 대한 재위임을 예외적으로 허용하는 법리",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법 제75조·제95조 및 포괄위임금지원칙: 시행령은 법률의 위임사항과 집행 세부사항만 정할 수 있고 위임 없이 새로운 권리·의무를 창설할 수 없음",
+          "source": "8768"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "공증인법상 공증인은 공무수탁사인이고 법무부장관의 집행증서 작성지침은 감독권에 기초한 행정규칙이지 법규명령이 아님",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 판례법리: 법령보충적 행정규칙도 상위법령의 위임 범위를 벗어난 부분은 대외적 구속력이 없음",
+          "source": "8768"
+        }
+      },
+      "derivation": "독립 판정 T·T·T·F·T, 옳지 않은 것 = ④ → ④(=answer 4)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "99헌바91"
+      ],
+      "fulltext_pulled": []
+    }
+  ]
+}

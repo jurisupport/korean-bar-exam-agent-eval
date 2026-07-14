@@ -1,0 +1,345 @@
+{
+  "model": "gpt-5.6-sol",
+  "variant": "V3",
+  "answers": [
+    {
+      "no": 17,
+      "answer": 2,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원의 비형벌법규 위헌결정 소급효 판시 및 헌재 2010헌마535 관련 결정(전문 인출 실패): 당해·동종·병행·일반사건에 효력이 미치되 법적 안정성과 신뢰보호상 소급효 제한 가능",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법재판소법 제47조 제3항·제4항: 형벌조항은 원칙적으로 소급 상실하고 그 조항에 근거한 유죄확정판결에 재심 허용",
+          "source": "지식"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법재판소법 제53조·제54조: 탄핵 인용의 파면효 등을 정할 뿐 탄핵결정에 일반적 기속력을 부여하는 조항은 없음",
+          "source": "지식"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2011. 6. 23. 선고 2008도7562 전원합의체 판결(전문 인출 실패): 형벌조항의 잠정적용 헌법불합치 후 개선입법 없이 시한이 지나면 소급 실효되어 면소가 아니라 무죄",
+          "source": "8768"
+        },
+        "ㅁ": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "헌재 2011헌바38 및 행정처분 하자 판례 법리(전문 인출 실패): 처분 후 근거법률의 위헌결정만으로 처분이 당연무효가 되는 것은 아님",
+          "source": "8768"
+        }
+      },
+      "derivation": "진리표 ㄱ○·ㄴ○·ㄷ○·ㄹ×·ㅁ× → ㄱ·ㄴ·ㄷ인 ②(=answer 2)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2010헌마535",
+        "2008도7562",
+        "2011헌바38"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 18,
+      "answer": 1,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "법원조직법상 최근 3년 당원경력 법관임용 결격조항에 관한 헌재 위헌 판시(전문 인출 실패; 사건번호 미확인): 정치적 중립성과 무관한 경우까지 일률 배제하여 과도함",
+          "source": "지식"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "구 국가공무원법상 피성년후견인 당연퇴직조항에 관한 헌재 위헌 판시(전문 인출 실패; 사건번호 미확인): 직무수행능력을 개별 심사하지 않는 일률 퇴직은 과도함",
+          "source": "지식"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "국가공무원법·군인사법상 아동 성적 학대행위 전력자의 일반직·부사관 임용결격조항에 관한 헌재 위헌 판시(전문 인출 실패; 사건번호 미확인): 형의 경중·기간을 묻지 않는 일률 제한은 과도함",
+          "source": "지식"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.6,
+          "authority": "국가공무원법·공무원임용령상 감봉 후 12개월 승진임용 제한에 관한 헌재 합헌 판시(전문 인출 실패; 사건번호 미확인): 징계의 실효성과 공직질서 확보를 위한 한시적 제한",
+          "source": "지식"
+        }
+      },
+      "derivation": "진리표 ㄱ○·ㄴ○·ㄷ○·ㄹ× → ①(=answer 1)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 19,
+      "answer": 2,
+      "propositions": {
+        "①": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2023. 9. 26. 2020헌마1724 등(전문 인출 실패): 전단등 살포 금지·처벌조항은 과잉금지원칙에 반하여 표현의 자유를 침해",
+          "source": "지식"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.6,
+          "authority": "헌재 2013. 6. 27. 2011헌바75 등 후보자비방죄 합헌 선례(전문 인출 실패): 진실한 사실로서 공공의 이익에 관한 경우의 위법성 배제 등을 고려하여 정치적 표현의 자유를 침해하지 않음",
+          "source": "지식"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2012. 8. 23. 2010헌마47 등(전문 인출 실패): 정보통신망법상 게시판 본인확인제는 익명표현의 자유 등을 침해",
+          "source": "8768"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "인터넷선거보도 심의기준상 후보자 명의 칼럼 등의 시기제한조항에 관한 헌재 위헌 판시(전문 인출 실패; 사건번호 미확인): 후보자의 표현의 자유 침해",
+          "source": "지식"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "헌재 2021. 1. 28. 2018헌마456 등(전문 인출 실패): 선거운동기간 인터넷언론사 게시판 실명확인제와 과태료조항은 익명표현의 자유를 침해",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳지 않은 것 = ② → ②(=answer 2)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2020헌마1724",
+        "2011헌바75",
+        "2010헌마47",
+        "2018헌마456"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 20,
+      "answer": 1,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.92,
+          "authority": "헌법재판소법 제68조 제2항의 재판전제성 법리: B조항은 운전면허취소처분의 근거가 아니어서 그 위헌 여부가 당해 취소소송의 주문·결론을 좌우하지 않음",
+          "source": "지식"
+        },
+        "②": {
+          "truth": true,
+          "confidence": 0.99,
+          "authority": "문제의 소송계속 사실 및 헌법재판소법 제68조 제2항: 위헌제청신청의 모체인 당해사건은 부산지방법원 2025구단1464",
+          "source": "지식"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법재판소법 제68조 제1항 직접성 법리: A조항은 취소처분이라는 집행행위를 매개하지만 B조항은 취소일부터 결격효과가 법률상 직접 발생",
+          "source": "지식"
+        },
+        "④": {
+          "truth": true,
+          "confidence": 0.9,
+          "authority": "헌법 제15조 및 직업의 자유 판례 법리: 운전면허의 필요적 취소와 재취득 결격은 화물차 운전업의 수행·계속을 제한",
+          "source": "지식"
+        },
+        "⑤": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "도로교통법상 2회 음주운전자의 2년 면허결격조항에 관한 헌재 합헌 법리(전문 인출 실패; 사건번호 미확인): 반복 음주운전 방지의 필요와 2년이라는 기간을 고려하면 개별화 부재가 최소침해성 위반은 아님",
+          "source": "지식"
+        }
+      },
+      "derivation": "옳지 않은 것 = ① → ①(=answer 1)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 21,
+      "answer": 3,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2024. 12. 19. 선고 2022다289051 전원합의체 판결(전문 인출 실패): 장애인 접근권은 기본권이나 특정 시설 설치를 적극 청구하는 구체적 권리에는 법률의 구체화가 필요",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2022다289051 전원합의체 판결의 개선입법부작위 위법성 판단요소(전문 인출 실패): 다른 정책으로 실제 설치율이 상당하다면 미개정의 정당한 사유가 될 여지",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2022다289051 전원합의체 판결의 조직적 과실 법리(전문 인출 실패): 담당 공무원을 특정하여 개인별 고의·과실을 심리할 필요는 없음",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "대법원 2022다289051 전원합의체 판결의 위법성과 과실 구별 법리(전문 인출 실패): 개선입법의무 인식가능성은 과실 판단사항이지 객관적 정당성 상실 여부의 판단사항이 아님",
+          "source": "지식"
+        }
+      },
+      "derivation": "진리표 ㄱ○·ㄴ○·ㄷ○·ㄹ○ → ③(=answer 3)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022다289051"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 22,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.9,
+          "authority": "민사소송법상 소송판결의 기판력 법리: 확정된 흠결이 뒤에 보완되면 전소와 다른 상태이므로 동일한 소를 다시 제기할 수 있음",
+          "source": "지식"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2024. 2. 8. 선고 2022두50571 판결(전문 인출 실패): 당연퇴직 전 기간의 보수청구 가능성은 소청결정 취소로 회복할 법률상 이익이므로 취소소송의 이익이 남음",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.98,
+          "authority": "행정소송법 제30조 제2항·제34조: 거부처분 취소판결 후 재처분의무가 있고 불이행 시 행정소송법상 간접강제 가능",
+          "source": "지식"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.9,
+          "authority": "대법원 1991. 2. 22. 선고 90누3560 등 기속력 법리(전문 인출 실패): 기본적 사실관계가 다른 새 처분사유에 의한 처분까지 반복금지에 저촉되는 것은 아님",
+          "source": "8768"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.9,
+          "authority": "행정심판법 제49조의 기속력 법리: 인용재결은 관계 행정청을 기속할 뿐 확정판결과 같은 기판력으로 당사자와 법원의 사실·법률 판단을 구속하지 않음",
+          "source": "지식"
+        }
+      },
+      "derivation": "옳은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022두50571",
+        "90누3560"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 23,
+      "answer": 5,
+      "propositions": {
+        "ㄱ": {
+          "truth": true,
+          "confidence": 0.6,
+          "authority": "대법원의 금융감독원 보유 직무문서에 관한 문서제출명령 결정(전문 인출 실패; 사건번호 미확인): 공무상 문서에 준해 정보공개법 절차에서 공개 여부를 정하도록 하여 제출거부 가능",
+          "source": "8768"
+        },
+        "ㄴ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2024. 5. 30. 선고 2022두65559 판결(전문 인출 실패): 군사법원법 제309조의3은 정보공개법 제4조 제1항의 특별규정이어서 피고인·변호인의 정보공개법상 청구가 허용되지 않음",
+          "source": "8768"
+        },
+        "ㄷ": {
+          "truth": true,
+          "confidence": 0.65,
+          "authority": "대법원 2023. 7. 27. 선고 2022두52980 판결(전문 인출 실패): 정보 비공개·부분공개 결정에 이의신청을 거친 경우 결과통지일부터 취소소송 제소기간 기산",
+          "source": "8768"
+        },
+        "ㄹ": {
+          "truth": false,
+          "confidence": 0.92,
+          "authority": "정보공개법 제20조 제2항 및 행정소송 심리법리: 법원은 필요하면 대상정보의 제출을 명하고 비공개로 열람·심사하여 특정·분리 가능성을 판단할 수 있음",
+          "source": "8768"
+        }
+      },
+      "derivation": "진리표 ㄱ○·ㄴ○·ㄷ○·ㄹ× → ㄱ·ㄴ·ㄷ인 ⑤(=answer 5)",
+      "min_prop_confidence": 0.6,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2022두65559",
+        "2022두52980"
+      ],
+      "fulltext_pulled": []
+    },
+    {
+      "no": 24,
+      "answer": 3,
+      "propositions": {
+        "①": {
+          "truth": false,
+          "confidence": 0.95,
+          "authority": "토지보상법 제30조: 토지소유자는 사업시행자에게 재결신청을 청구할 수 있을 뿐 토지수용위원회에 직접 재결을 신청하지 못하고, 사업시행자의 지연에는 가산금 규율이 적용됨",
+          "source": "8768"
+        },
+        "②": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 2006두19495 등 수용보상 법리(전문 인출 실패): 재결절차를 거치지 않은 채 곧바로 사업시행자에게 법정 손실보상금을 청구하는 당사자소송은 허용되지 않음",
+          "source": "8768"
+        },
+        "③": {
+          "truth": true,
+          "confidence": 0.98,
+          "authority": "토지보상법 제88조: 이의신청은 사업의 진행과 토지 수용 또는 사용을 정지시키지 않음",
+          "source": "지식"
+        },
+        "④": {
+          "truth": false,
+          "confidence": 0.98,
+          "authority": "토지보상법 제85조 제2항: 보상금 증감소송의 피고는 토지수용위원회가 아니라 사업시행자",
+          "source": "지식"
+        },
+        "⑤": {
+          "truth": false,
+          "confidence": 0.65,
+          "authority": "대법원 1999. 11. 26. 선고 98다60422 및 2001. 10. 12. 선고 2001다24112 판결 법리(전문 인출 실패): 사업인정 후에도 당사자는 협의취득계약을 체결할 수 있어 수용재결 후 별도 합의를 일률적으로 금지할 수 없음",
+          "source": "8768"
+        }
+      },
+      "derivation": "옳은 것 = ③ → ③(=answer 3)",
+      "min_prop_confidence": 0.65,
+      "contested": true,
+      "gap_class": "evidence",
+      "cited_caseno": [
+        "2006두19495",
+        "98다60422",
+        "2001다24112"
+      ],
+      "fulltext_pulled": []
+    }
+  ]
+}

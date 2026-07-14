@@ -1,0 +1,70 @@
+{
+ "run": 2,
+ "question": 22,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "7128bf88075b27ed3d82ffb2bbf1aac6b9d6960da0fba2806353c82ed6122717",
+ "answer": {
+  "no": 22,
+  "answer": 3,
+  "propositions": {
+   "①": {
+    "truth": false,
+    "confidence": 0.85,
+    "authority": "민사소송법상 소송판결의 기판력은 확정된 소송요건 흠결에 한정되므로 그 흠결을 보완한 뒤에는 다시 소를 제기할 수 있음",
+    "source": "8768"
+   },
+   "②": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "대법원 2024. 2. 8. 선고 2022두50571 판결 전문: 사립학교 교원이 소청심사청구 후 당연퇴직하여 원직복직이 불가능해도 해임처분 취소·변경 시 해임일부터 당연퇴직사유 발생일까지 보수를 청구할 수 있으면 소청심사청구 기각결정의 취소를 구할 법률상 이익이 있고, 별도 민사소송 가능성은 이를 부정할 이유가 되지 않음",
+    "source": "precedent-search 전문, 8770 교차확인"
+   },
+   "③": {
+    "truth": true,
+    "confidence": 0.95,
+    "authority": "행정소송법 제30조 제2항의 재처분의무 및 제34조의 간접강제: 거부처분 취소판결 후 재처분 불이행은 민사집행이 아니라 행정소송법상 간접강제 대상",
+    "source": "8768"
+   },
+   "④": {
+    "truth": false,
+    "confidence": 0.85,
+    "authority": "행정소송법 제30조의 기속력은 판결에서 위법하다고 판단된 처분사유와 기본적 사실관계가 동일한 범위에 미치므로 기본적 사실관계가 다른 새 사유의 처분은 가능",
+    "source": "8768"
+   },
+   "⑤": {
+    "truth": false,
+    "confidence": 0.85,
+    "authority": "행정심판법 제49조의 인용재결 기속력은 관계 행정청의 재처분·이행의무이지 재결 이유의 사실·법률 판단에 기판력을 부여하는 효력이 아님",
+    "source": "8768"
+   }
+  },
+  "derivation": "옳은 것은 ③ → ③(=answer 3)",
+  "min_prop_confidence": 0.85,
+  "contested": false,
+  "gap_class": "none",
+  "cited_caseno": [
+   "2022두50571"
+  ],
+  "fulltext_pulled": [
+   "대법원 2024. 2. 8. 선고 2022두50571 판결"
+  ],
+  "votes": {
+   "V1": 3,
+   "V2": 3,
+   "V3": 3
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [],
+  "redteam": {
+   "weak_proposition": "②",
+   "position_a": "당연퇴직으로 교원 지위를 회복할 수 없고 보수는 별도 민사소송으로 청구할 수 있으므로 소청심사청구 기각결정 취소의 법률상 이익이 없다는 동일 사건 원심의 구체적 적용논리",
+   "position_b": "해임 무효 여부가 해임일부터 당연퇴직사유 발생일까지의 보수지급청구권 존부와 직결되고, 별도 민사소송 가능성은 교원소청심사제도와 행정소송상 법률상 이익을 부정하지 않는다는 동일 사건 대법원 판시",
+   "blind_winner": "B",
+   "comparison": "동일 사안·동일 선지영향을 직접 판단한 최종심 전문이 A의 원심 논리를 명시적으로 파기하므로 B가 명백히 우세",
+   "challenger_result": "반증 실패: 형식 요건을 갖춘 동일쟁점 challenger를 정면으로 배척",
+   "answer_differentiator_check": "③은 행정소송법 제30조 제2항의 거부처분 취소 후 재처분의무와 제34조 제1항의 간접강제라는 별도 두 조문 라인을 대조하여 true 유지"
+  },
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol"
+ }
+}

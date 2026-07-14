@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","answers":[
+  {"no":9,"answer":4,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"기억: 헌재 대체역법 결정 요지—교정시설 대체복무는 형사처벌·수형과 법적·사회적 의미가 달라 징벌적 처우가 아님."},
+    "②":{"truth":true,"confidence":0.88,"authority":"기억: 헌재 대체역법 결정 요지—36개월 합숙복무는 복무 강도와 병역부담의 형평에 비추어 과잉금지 위반이 아님."},
+    "③":{"truth":true,"confidence":0.72,"authority":"기억: 헌재 대체복무요원 생활관 CCTV 결정 요지—공동생활시설에 CCTV가 운영된다는 사정만으로 과도한 제한을 단정하기 어려움."},
+    "④":{"truth":false,"confidence":0.64,"authority":"기억: 헌재 대체복무요원 정당가입·정치활동 금지 결정 요지—병역부담 형평과 복무의 공정성·정치적 중립성을 위한 제한을 합헌으로 본 것으로 기억(사건번호 불확실)."},
+    "⑤":{"truth":true,"confidence":0.73,"authority":"기억: 병역법 제88조 제1항의 ‘정당한 사유’ 판례 및 대체복무제 합헌 취지—국가 관리 대체복무 자체의 거부에 순수 민간단체 복무를 보장하지 않은 처벌체계는 양심의 자유 침해가 아님."}},
+   "derivation":"①·②·③·⑤는 옳고 ④는 옳지 않음 → answer 4","min_prop_confidence":0.64,"contested":true,"recall_flag":false},
+  {"no":10,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.91,"authority":"기억: 헌법재판소법 제68조 제1항 직접성 법리—최저임금법 제8조 제1항은 장관의 결정권한·의무만 정하여 국민 기본권을 직접 제한하지 않음."},
+    "②":{"truth":true,"confidence":0.91,"authority":"기억: 헌재 법령헌법소원 직접성 판례—최저임금법 제14조 제1항의 위원회 구성 조직규범은 일반국민을 수범자로 하지 않음."},
+    "③":{"truth":true,"confidence":0.92,"authority":"기억: 헌법 제10조·제15조 및 헌재 주 52시간 상한제 결정—근로기준법 제53조 제1항은 당사자의 계약자유와 사용자의 직업수행 자유를 제한."},
+    "④":{"truth":true,"confidence":0.89,"authority":"기억: 헌법 제23조 재산권 판례—영리획득의 단순한 기회나 기업활동의 사실적·법적 여건은 원칙적으로 재산권 보호대상이 아님."},
+    "⑤":{"truth":false,"confidence":0.94,"authority":"기억: 헌법 제32조 및 헌재 주 52시간 상한제 결정—근로환경에 관한 권리는 근로자 보호 취지이고 추가 연장근로 요구권을 보장하지 않음."}},
+   "derivation":"①·②·③·④는 옳고 ⑤는 옳지 않음 → answer 5","min_prop_confidence":0.89,"contested":false,"recall_flag":false},
+  {"no":11,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.82,"authority":"기억: 헌법재판소법 제68조 제1항 직접성 법리—항소이유서 미제출 시 기각 조항은 법원의 항소기각결정을 매개로 기본권에 영향을 미침."},
+    "ㄴ":{"truth":true,"confidence":0.76,"authority":"기억: 헌재 공증인 정원제 결정 요지—인가를 받으려는 법무법인 소속 변호사도 직업수행의 법적 지위가 영향받아 자기관련성이 인정될 수 있음."},
+    "ㄷ":{"truth":true,"confidence":0.86,"authority":"기억: 헌법재판소법 제40조 제1항·민사소송법 준용 법리—신규 청구인 추가는 표시정정을 넘는 임의적 당사자변경으로 허용되지 않음."},
+    "ㄹ":{"truth":false,"confidence":0.74,"authority":"기억: 헌법재판소법 제40조 제1항·민사소송법 제83조 제1항 준용 법리—공동소송참가는 기존 심판 참가이므로 원 헌법소원 청구기간 내 참가까지 요구하지 않음."}},
+   "derivation":"ㄱ(○)·ㄴ(○)·ㄷ(○)·ㄹ(×)의 조합은 ④ → answer 4","min_prop_confidence":0.74,"contested":false,"recall_flag":false},
+  {"no":12,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.98,"authority":"기억: 헌법 제117조 제1항과 지방자치법—법령 범위에서 자치사무 조례를 제정하고 권리제한·의무부과·벌칙에는 법률 위임이 필요."},
+    "②":{"truth":false,"confidence":0.96,"authority":"기억: 헌재 조례위임 판례—조례는 지방의회의 민주적 의결을 거치므로 법규명령보다 위임의 구체성 요구가 완화되어 포괄적 위임도 가능."},
+    "③":{"truth":true,"confidence":0.86,"authority":"기억: 헌법 제117조 제1항의 ‘법령’ 판례—법률·법규명령과 함께 법령 위임에 따라 대외적 구속력을 갖는 법규보충적 행정규칙도 포함."},
+    "④":{"truth":true,"confidence":0.96,"authority":"기억: 지방자치법 조례안 재의요구 규정—이송 후 20일 내 이유를 붙여 환부하며 일부 재의나 수정 재의는 허용되지 않음."},
+    "⑤":{"truth":true,"confidence":0.95,"authority":"기억: 주민조례발안에 관한 법률—주민은 요건을 갖추어 조례의 제정·개정·폐지를 청구할 수 있음."}},
+   "derivation":"①·③·④·⑤는 옳고 ②는 옳지 않음 → answer 2","min_prop_confidence":0.86,"contested":false,"recall_flag":false},
+  {"no":13,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.96,"authority":"기억: 헌법 제15조와 헌재 직업의 자유 판례—직업선택·직업수행의 자유를 포함하고 법인도 성질상 직업수행 자유의 주체가 될 수 있음."},
+    "②":{"truth":true,"confidence":0.88,"authority":"기억: 헌재 직업의 자유 판례—개인의 자유권이면서 개별 직업활동으로 사회적 시장경제질서를 형성하는 객관적 가치질서의 요소임."},
+    "③":{"truth":false,"confidence":0.83,"authority":"기억: 병역법상 사회복무요원 겸직허가·경고·복무연장 조항에 대한 헌재 결정—성실한 병역의무와 복무질서를 위한 제한으로 직업의 자유 침해를 부정."},
+    "④":{"truth":true,"confidence":0.76,"authority":"기억: 헌재 비사업용 자동차 외부표시 제한 결정—교통안전·도시경관 등 공익을 위한 직업수행 제한으로 과잉금지 위반이 아님."},
+    "⑤":{"truth":true,"confidence":0.9,"authority":"기억: 헌재 외국인근로자 사업장변경 제한 결정—적법한 고용허가와 국내 생활관계를 가진 외국인의 직장선택 자유를 인간의 권리로 인정."}},
+   "derivation":"①·②·④·⑤는 옳고 ③은 옳지 않음 → answer 3","min_prop_confidence":0.76,"contested":false,"recall_flag":false},
+  {"no":14,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.99,"authority":"기억: 헌법 제119조와 헌재 경제질서 판례—사유재산·자유경쟁을 기본으로 사회정의를 위한 규제·조정을 허용하는 사회적 시장경제질서."},
+    "②":{"truth":false,"confidence":0.98,"authority":"기억: 헌법 제123조 제4항—수급균형·유통구조 개선과 가격안정으로 농어민 이익을 보호하지만 농산물 최저가격제 시행을 명문으로 명령하지 않음."},
+    "③":{"truth":true,"confidence":0.99,"authority":"기억: 헌법 제126조—국방상 또는 국민경제상 긴절한 필요로 법률이 정한 경우 사영기업의 국·공유화를 예외적으로 허용."},
+    "④":{"truth":false,"confidence":0.99,"authority":"기억: 헌법 제121조 제1항·제2항—소작제도는 금지되고 생산성 제고·합리적 이용 등을 위한 농지 임대차·위탁경영만 법률에 따라 인정."},
+    "⑤":{"truth":false,"confidence":0.96,"authority":"기억: 헌법 제119조 제2항과 헌재 조세입법 판례—‘적정한 소득의 분배’는 정책목표일 뿐 누진세율 종합과세의 구체적 헌법상 의무는 아님."}},
+   "derivation":"③만 옳음 → answer 3","min_prop_confidence":0.96,"contested":false,"recall_flag":false},
+  {"no":15,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.96,"authority":"기억: 헌재 텔레비전방송수신료 결정—수신료는 공영방송 경비를 수상기 소지자 집단에 부과하는 특별부담금으로 조세·수익자부담금과 구별."},
+    "ㄴ":{"truth":true,"confidence":0.76,"authority":"기억: 헌재 방송법 시행령 제43조 제2항 결정—전기요금과의 결합 여부는 수신료 금액·납부의무자 같은 본질사항이 아닌 구체적 고지방법이어서 법률이 직접 정할 사항이 아님."},
+    "ㄷ":{"truth":false,"confidence":0.7,"authority":"기억: 방송법 시행령 제43조 제2항은 지정된 징수자의 고지방법을 규율하는 집행적 사항이고 A의 방송편성·운영 자유를 직접 제한한다는 이유로 개별 위임이 필요한 위임명령은 아님."},
+    "ㄹ":{"truth":false,"confidence":0.91,"authority":"기억: 헌재 수신료 분리징수 결정—30년 결합징수만으로 항구적 존속에 대한 보호가치 있는 신뢰가 형성되지 않아 신뢰보호원칙 위반이 아님."}},
+   "derivation":"ㄱ·ㄴ만 옳음 → ① → answer 1","min_prop_confidence":0.7,"contested":false,"recall_flag":false},
+  {"no":16,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.98,"authority":"기억: 헌법 제35조 제1항·제2항 및 헌재 2024. 8. 29. 기후위기 결정—환경권은 자연·생활환경을 포괄하고 국가의 환경보전의무에 기후위기 대응이 포함."},
+    "②":{"truth":true,"confidence":0.96,"authority":"기억: 헌재 기본권 보호의무 판례—과소보호금지원칙에 따라 위험상황에 상응하는 필요한 최소한의 보호조치가 있는지를 심사."},
+    "③":{"truth":false,"confidence":0.98,"authority":"기억: 헌재 2024. 8. 29. 2020헌마389등—탄소중립기본법 제8조 제1항이 2031~2049년 감축경로의 대강의 정량수준도 정하지 않은 것은 의회유보를 포함한 법률유보원칙 위반."},
+    "④":{"truth":true,"confidence":0.98,"authority":"기억: 헌재 2024. 8. 29. 2020헌마389등—2031~2049년 정량기준 부재는 환경권 보호의 최소조치를 갖추지 못해 과소보호금지원칙 위반."},
+    "⑤":{"truth":true,"confidence":0.89,"authority":"기억: 헌재 2024. 8. 29. 2020헌마389등—시행령 제3조 제1항의 2030년 40% 감축비율 자체는 법률 위임의 구체화로 최소 보호조치가 결여됐다고 보지 않음."}},
+   "derivation":"①·②·④·⑤는 옳고 ③은 옳지 않음 → answer 3","min_prop_confidence":0.89,"contested":false,"recall_flag":false}
+]}

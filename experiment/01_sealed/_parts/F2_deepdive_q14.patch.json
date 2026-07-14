@@ -1,0 +1,66 @@
+{
+ "run": 2,
+ "question": 14,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "7128bf88075b27ed3d82ffb2bbf1aac6b9d6960da0fba2806353c82ed6122717",
+ "answer": {
+  "no": 14,
+  "answer": 3,
+  "propositions": {
+   "①": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "헌법 제119조 제1항·제2항 및 헌재 1989. 12. 22. 88헌가13 결정은 사유재산과 사적자치에 기초한 시장경제를 기본으로 하면서 재산권의 사회적 의무성과 국가의 경제 규제·조정을 함께 인정함",
+    "source": "korean-law MCP 조문·결정 전문"
+   },
+   "②": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "헌법 제123조 제4항은 농수산물의 수급균형과 유통구조 개선에 노력하여 가격안정을 도모하도록 정할 뿐 농산물 최저가격제 시행을 규정하지 않음",
+    "source": "korean-law MCP 조문 전문"
+   },
+   "③": {
+    "truth": true,
+    "confidence": 0.99,
+    "authority": "헌법 제126조는 국방상 또는 국민경제상 긴절한 필요로 인하여 법률이 정하는 경우를 사영기업의 국유·공유 이전 금지의 명문 예외로 둠",
+    "source": "korean-law MCP 조문 전문"
+   },
+   "④": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "헌법 제121조 제1항은 농지 소작제도를 금지하고, 제2항은 농업생산성·농지의 합리적 이용 또는 불가피한 사정에 따른 임대차와 위탁경영만 법률로 인정함",
+    "source": "korean-law MCP 조문 전문"
+   },
+   "⑤": {
+    "truth": false,
+    "confidence": 0.99,
+    "authority": "헌재 1999. 11. 25. 98헌마55 결정은 금융소득 분리과세라는 동일쟁점에서 헌법 제119조 제2항으로부터 누진세율에 따른 종합과세를 시행할 구체적 헌법의무가 조세입법자에게 부과된다고 할 수 없다고 판시함",
+    "source": "korean-law MCP 결정 전문"
+   }
+  },
+  "derivation": "옳은 것은 ③만 참 → ③(=answer 3)",
+  "min_prop_confidence": 0.99,
+  "contested": false,
+  "gap_class": "none",
+  "cited_caseno": [
+   "88헌가13",
+   "98헌마55"
+  ],
+  "fulltext_pulled": [
+   "88헌가13",
+   "98헌마55"
+  ],
+  "votes": {
+   "V1": 3,
+   "V2": 3,
+   "V3": 3
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [
+   "딥다이브 해소: 98헌마55 동일쟁점 전문 인출"
+  ],
+  "redteam": "⑤ challenger(참)는 헌법 제119조 제2항의 적정한 소득분배 문언과 88헌가13의 소득재분배·민주복지국가 법리에서 종합·누진과세 의무를 도출하는 논거이다. 반대측(거짓)은 98헌마55 전문이 바로 금융소득 분리과세 쟁점에서 그 구체적 의무를 명시적으로 부정한다. 어느 쪽이 현행인지 가린 blind 비교에서도 동일쟁점 전문인 후자가 일반 경제질서 법리보다 명백히 우세하여 challenger를 기각했다. korean-law MCP로 조문·두 결정 전문 인출에 성공했고, 8770·8769에는 동일쟁점 결정이 없었으며 법고을은 샌드박스의 Chrome 기동 실패로 인출하지 못했다.",
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol"
+ }
+}

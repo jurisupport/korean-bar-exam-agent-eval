@@ -1,0 +1,69 @@
+{
+ "run": 1,
+ "question": 5,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "8bb5799540e98b6d080ad446bda165d3e3f5a645d6dfc4a39dc3995a2a692b50",
+ "answer": {
+  "no": 5,
+  "answer": 2,
+  "propositions": {
+   "①": {
+    "truth": true,
+    "confidence": 0.95,
+    "authority": "헌재 2024헌나1 전문: 방통위는 방송의 자유·공공성·공익성을 높이고 독립성을 보장하기 위해 설치되었고, 방통위원장 탄핵심판은 위헌·위법한 직무집행으로 침해된 방송의 공적 기능 회복을 통해 방송·언론의 자유 보장에 기여할 수 있다고 판시",
+    "source": "korean-law fulltext"
+   },
+   "②": {
+    "truth": false,
+    "confidence": 0.98,
+    "authority": "헌재 2020헌마264 전문 법정의견: 헌법 제66조 제4항의 정부는 넓은 의미의 집행부이고, 헌법 제86조 제2항상 행정각부에 모든 행정기관이 포함되는 것은 아니므로 행정각부 밖 독립 행정기관의 법률상 설치는 헌법상 금지되지 않는다고 판시",
+    "source": "korean-law fulltext"
+   },
+   "③": {
+    "truth": true,
+    "confidence": 0.96,
+    "authority": "헌재 2020헌마264 전문: 독립된 위치의 수사기관 설치·운영 여부와 수사·기소 대상 범위는 제반 사정을 고려할 입법사항이고, 입법자의 결정은 명백히 자의적이거나 현저히 부당하지 않는 한 존중된다고 판시",
+    "source": "korean-law fulltext"
+   },
+   "④": {
+    "truth": true,
+    "confidence": 0.99,
+    "authority": "헌재 2023헌라5 전문(전원일치): 헌법 제97조의 직무감찰권은 행정부 내부 통제장치이므로 독립 헌법기관인 선관위는 대상이 아니며, 감사원법 제24조 제1항 제1호에도 포함되지 않고 같은 조 제3항은 예시적·확인적 규정이라고 판시",
+    "source": "korean-law fulltext + 8770"
+   },
+   "⑤": {
+    "truth": true,
+    "confidence": 0.97,
+    "authority": "헌재 2023헌라5 전문: 대의민주주의와 국민주권주의 실현에는 공정한 선거관리가 필수이고, 일반행정기관과 별도의 독립기관 요청을 헌법상 선거관리위원회가 제도화한 것이라고 판시",
+    "source": "korean-law fulltext + 8770"
+   }
+  },
+  "derivation": "옳지 않은 것 = ② → ②(=answer 2)",
+  "min_prop_confidence": 0.95,
+  "contested": false,
+  "gap_class": "none",
+  "cited_caseno": [
+   "2024헌나1",
+   "2020헌마264",
+   "2023헌라5"
+  ],
+  "fulltext_pulled": [
+   "2024헌나1",
+   "2020헌마264",
+   "2023헌라5"
+  ],
+  "redteam": "blind-safe challenger를 정면 검토함. ②를 참이라고 보는 동일사건 반대의견은 헌법 제66조 제4항상 전통적 핵심 행정업무가 행정각부에 속해야 한다고 주장하나, 법정의견은 제66조 제4항과 제86조 제2항을 직접 해석하여 독립 행정기관 설치가 금지되지 않는다고 판시하므로 블라인드 비교에서 법정의견이 우세하다. ④를 거짓이라고 보는 challenger는 헌법 제97조의 '행정기관 및 공무원'과 감사원법 제24조 제1항·제3항 문언을 근거로 선관위 포함을 주장할 수 있으나, 2023헌라5 전원일치 결정은 두 조문 라인을 모두 검토하여 제3항을 예시적·확인적 규정으로 보고 선관위를 제외하였다. 두 challenger 모두 동일쟁점 1차자료에 의해 정면 배척되어 flip하지 않는다.",
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol",
+  "votes": {
+   "V1": 2,
+   "V2": 2,
+   "V3": 2
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [
+   "딥다이브에서 controlling 결정 전문 인출 완료",
+   "blind-safe 동일쟁점 challenger 정면 배척"
+  ]
+ }
+}

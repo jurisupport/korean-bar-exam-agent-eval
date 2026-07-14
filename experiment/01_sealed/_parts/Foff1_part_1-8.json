@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","answers":[
+  {"no":1,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.84,"authority":"기억 근거: 1948년 제헌헌법의 이익균점권과 1980·1987년 개정헌법의 적정임금·최저임금 규정 연혁"},
+    "②":{"truth":true,"confidence":0.78,"authority":"기억 근거: 1954년 제2차 개정헌법의 대통령·양원 재적의원 3분의 1·민의원선거권자 50만 인 헌법개정제안 규정"},
+    "③":{"truth":true,"confidence":0.91,"authority":"기억 근거: 1960년 제3차 개정헌법의 선거의 공정한 관리를 위한 중앙선거위원회 도입"},
+    "④":{"truth":true,"confidence":0.88,"authority":"기억 근거: 1962년 제5차 개정헌법의 국회의원후보 소속정당 추천 요건"},
+    "⑤":{"truth":false,"confidence":0.96,"authority":"기억 근거: 1972년 유신헌법은 통일주체국민회의가 대통령의 일괄추천으로 국회의원 정수의 3분의 1을 선거; 지문의 2분의 1·국무총리 추천은 오류"}},
+   "derivation":"①·②·③·④=O, ⑤=X; 올지 않은 것 = ⑤ → answer 5","min_prop_confidence":0.78,"contested":false,"recall_flag":false},
+  {"no":2,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.76,"authority":"기억 근거: 헌재 판례는 적법절차원칙에서 파생된 일반적 청문절차 요구로 국회 입법권을 제약하는 구성을 부정"},
+    "②":{"truth":true,"confidence":0.91,"authority":"기억 근거: 탄핵심판 판례—절차 준수와 일정 수준 이상의 소명이 있으면 부수적 정치적 동기만으로 탄핵소추권 남용이 아님"},
+    "③":{"truth":true,"confidence":0.9,"authority":"기억 근거: 헌법 제60조 제1항; 실질이 외국군대 지위·국가 재정부담·입법사항을 포함하는 조약은 국회 동의 대상"},
+    "④":{"truth":true,"confidence":0.82,"authority":"기억 근거: 헌재 권한쟁의 판례—본회의 의결로 국회의 권한실현 의사가 이미 확정되면 국회의장은 별도 의결 없이 청구 가능"},
+    "⑤":{"truth":true,"confidence":0.84,"authority":"기억 근거: 헌재 법률 제·개정행위 권한쟁의 판례—입법작용의 피청구인은 국회이며 국회의장 상대 청구는 부적법"}},
+   "derivation":"①=X, ②·③·④·⑤=O; 올지 않은 것 = ① → answer 1","min_prop_confidence":0.76,"contested":false,"recall_flag":false},
+  {"no":3,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.95,"authority":"기억 근거: 헌법 제65조 제2항의 대통령 탄핵소추 가중정족수와 민주적 정당성·헌법상 지위를 고려한 신중한 행사 취지"},
+    "②":{"truth":true,"confidence":0.9,"authority":"기억 근거: 헌재 대통령 권한대행 판례—국무총리의 민주적 정당성은 대통령보다 축소된 간접적 정당성"},
+    "③":{"truth":true,"confidence":0.91,"authority":"기억 근거: 헌법 제86조 제2항·제66조 제4항; 국무총리는 대통령을 보좌하고 명을 받아 행정각부를 통할"},
+    "④":{"truth":true,"confidence":0.92,"authority":"기억 근거: 헌법 제111조 제3항·헌재법의 재판관 자격·선출 규정; 하자 없는 국회 선출자에 대해 대통령과 권한대행자에게 임명의무"},
+    "⑤":{"truth":false,"confidence":0.93,"authority":"기억 근거: 헌재 국무총리 탄핵심판 판례—대통령 권한대행은 별도 공직이 아니므로 국무총리에 대한 탄핵소추 정족수를 적용"}},
+   "derivation":"①·②·③·④=O, ⑤=X; 올지 않은 것 = ⑤ → answer 5","min_prop_confidence":0.9,"contested":false,"recall_flag":false},
+  {"no":4,"answer":4,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.96,"authority":"기억 근거: 법원조직법 제8조—상급법원 재판의 판단은 해당 사건에 관하여 하급심을 기속; 동종 사건 일반을 기속하지 않음"},
+    "ㄴ":{"truth":true,"confidence":0.86,"authority":"기억 근거: 헌법 제107조 제2항·법원조직법 제7조; 각급법원의 명령·규칙 심사와 대법원 전원합의체의 위헌·위법 인정 사건"},
+    "ㄷ":{"truth":true,"confidence":0.84,"authority":"기억 근거: 헌법 제107조 제2항의 명령·규칙 심사법리와 대법원 판례상 조례의 위헌·위법 심사"},
+    "ㄹ":{"truth":true,"confidence":0.82,"authority":"기억 근거: 행정소송법 제6조—대법원판결로 명령·규칙의 위헌·위법이 확정되면 행정안전부장관에게 통보"}},
+   "derivation":"ㄱ=X, ㄴ·ㄷ·ㄹ=O; 올은 조합 = ㄴ·ㄷ·ㄹ = ④ → answer 4","min_prop_confidence":0.82,"contested":false,"recall_flag":false},
+  {"no":5,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.92,"authority":"기억 근거: 헌재 방송통신위원회 위원장 탄핵심판 판례—방송의 공적 기능 회복을 통한 방송·언론의 자유 보장은 탄핵심판의 헌법적 이익"},
+    "②":{"truth":false,"confidence":0.96,"authority":"기억 근거: 헌법 제86조 제2항·제96조와 헌재 판례—모든 중앙행정기관을 행정각부 또는 그 소속으로 두어야 하는 헌법상 강제는 없음"},
+    "③":{"truth":true,"confidence":0.94,"authority":"기억 근거: 헌재 고위공직자범죄수사처 관련 판례—독립기관 설치·관할 범위에 대한 광범위한 입법형성권"},
+    "④":{"truth":true,"confidence":0.91,"authority":"기억 근거: 헌법 제97조의 감사원 직무감찰권은 행정기관·공무원에 대한 행정부 내부통제; 독립 헌법기관은 제외"},
+    "⑤":{"truth":true,"confidence":0.95,"authority":"기억 근거: 헌법 제114조·제115조; 선거관리위원회는 선거의 공정한 관리를 위한 독립 헌법기관"}},
+   "derivation":"①·③·④·⑤=O, ②=X; 올지 않은 것 = ② → answer 2","min_prop_confidence":0.91,"contested":false,"recall_flag":false},
+  {"no":6,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.83,"authority":"기억 근거: 헌재 가축 살처분 보상 판례—전염병 방역을 위한 살처분은 헌법 제23조 제1·2항의 사회적 제약이지 제3항의 공용수용이 아님"},
+    "②":{"truth":true,"confidence":0.81,"authority":"기억 근거: 헌법 제23조 제1·2항의 조정적 보상 법리—사회적 제약이 수인한계를 넘는 예외적·가혹한 부담이면 완화 보상규정이 필요"},
+    "③":{"truth":true,"confidence":0.76,"authority":"기억 근거: 헌재 조정적 보상 판례—가혹한 부담을 어떤 방식으로 완화·조정할지에 광범위한 입법형성의 자유"},
+    "④":{"truth":true,"confidence":0.73,"authority":"기억 근거: 헌재 가축전염병예방법 제48조 제1항 판례—조정적 보상조치에 대한 입법형성재량의 한계 일탈 여부로 재산권 침해를 심사"},
+    "⑤":{"truth":false,"confidence":0.62,"authority":"기억 근거: 헌재 가축전염병예방법 살처분 보상금 판례의 취지—소유자인 축산계열화사업자의 불이익이 정산채권·농가 지급불능 위험 대응만으로 충분히 조정된다고 보기 어려움"}},
+   "derivation":"①·②·③·④=O, ⑤=X; 올지 않은 것 = ⑤ → answer 5","min_prop_confidence":0.62,"contested":true,"recall_flag":false},
+  {"no":7,"answer":5,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.92,"authority":"기억 근거: 헌법재판소법 제47조·제75조 제1항·제7항 및 헌재 판례—한정위헌결정은 법률에 대한 일부위헌결정으로 기속력이 있으며 이에 반하는 재판은 재판소원 예외"},
+    "ㄴ":{"truth":true,"confidence":0.9,"authority":"기억 근거: 헌법재판소법 제75조 제3항·제7항; 한정위헌의 기속력을 부정해 재심사유를 배제한 재판은 재판청구권을 침해하여 취소 대상"},
+    "ㄷ":{"truth":true,"confidence":0.79,"authority":"기억 근거: 헌법재판소법 제75조 제7항의 재심은 제68조 제2항 헌법소원의 당해사건 확정판결에 한정; 을에게는 별도 재심사유가 없음"},
+    "ㄹ":{"truth":true,"confidence":0.86,"authority":"기억 근거: 헌법재판소법 제68조 제1항; 한정위헌결정 전에 확정된 유죄판결은 결정의 기속력에 반한 재판이 아니어 직접 헌법소원은 부적법"}},
+   "derivation":"ㄱ·ㄴ·ㄷ·ㄹ=O; 모두 올은 조합 = ⑤ → answer 5","min_prop_confidence":0.79,"contested":false,"recall_flag":false},
+  {"no":8,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.88,"authority":"기억 근거: 헌재 종업원 양벌규정 위헌 판례—영업주의 선임·감독상 과실을 문언에 없이 추가하는 해석은 문의적 한계를 넘으며 무과실 양벌은 책임주의에 반함"},
+    "②":{"truth":true,"confidence":0.95,"authority":"기억 근거: 헌법재판소법 제47조 및 헌재 판례—합헌적 법률해석 결과인 한정위헌은 법률에 대한 일부위헌결정"},
+    "③":{"truth":true,"confidence":0.84,"authority":"기억 근거: 군형법 제94조 판례—군의 정치적 중립성을 훼손할 수 있는 의견을 군인·군무원이 지위를 이용해 공표한 행위로 제한해석"},
+    "④":{"truth":true,"confidence":0.78,"authority":"기억 근거: 군인사법 제48조 제4항 판례—공소기각이어도 사유가 없었다면 무죄가 선고될 현저한 사정의 내용상 무죄재판을 포함하는 합헌적 해석"},
+    "⑤":{"truth":true,"confidence":0.93,"authority":"기억 근거: 대법원 전원합의체 군형법 제92조의6 판례—사적 공간·자발적 합의·근무시간 외 행위로 군기를 직접·구체적으로 침해하지 않으면 적용되지 않음"}},
+   "derivation":"①=X, ②·③·④·⑤=O; 올지 않은 것 = ① → answer 1","min_prop_confidence":0.78,"contested":false,"recall_flag":false}
+]}

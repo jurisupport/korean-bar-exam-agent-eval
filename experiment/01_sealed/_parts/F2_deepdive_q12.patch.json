@@ -1,0 +1,85 @@
+{
+ "run": 2,
+ "question": 12,
+ "model": "gpt-5.6-sol",
+ "base_sha256": "7128bf88075b27ed3d82ffb2bbf1aac6b9d6960da0fba2806353c82ed6122717",
+ "answer": {
+  "no": 12,
+  "answer": 2,
+  "propositions": {
+   "①": {
+    "truth": true,
+    "confidence": 0.94,
+    "authority": "헌법 제117조 제1항 및 지방자치법 제28조 제1항",
+    "source": "korean-law MCP"
+   },
+   "②": {
+    "truth": false,
+    "confidence": 0.65,
+    "authority": "헌재 1995. 4. 20. 92헌마264 결정 및 헌재 2023. 12. 21. 2020헌바374 결정 전문; 조례에 대한 법률의 위임은 반드시 구체적으로 범위를 정할 필요가 없고 포괄적인 것으로 족함",
+    "source": "korean-law MCP; 8770; precedent-search"
+   },
+   "③": {
+    "truth": true,
+    "confidence": 0.65,
+    "authority": "헌재 2002. 10. 31. 2001헌라1 결정 및 헌재 1992. 6. 26. 91헌마25 결정 전문; 헌법 제117조 제1항의 법령에는 법령의 직접 위임과 위임한계 내에서 법규명령으로 기능하는 행정규칙이 포함됨",
+    "source": "korean-law MCP; 8768"
+   },
+   "④": {
+    "truth": true,
+    "confidence": 0.92,
+    "authority": "지방자치법 제32조 제3항·제4항; 20일 내 이유를 붙인 환부·재의요구는 가능하나 일부 재의나 수정 재의는 허용되지 않음",
+    "source": "korean-law MCP"
+   },
+   "⑤": {
+    "truth": true,
+    "confidence": 0.9,
+    "authority": "주민조례발안에 관한 법률 제2조; 주민은 조례의 제정·개정·폐지를 청구할 수 있음",
+    "source": "korean-law MCP"
+   }
+  },
+  "derivation": "옳지 않은 것 = ② → ②(=answer 2)",
+  "min_prop_confidence": 0.65,
+  "contested": true,
+  "gap_class": "none",
+  "cited_caseno": [
+   "92헌마264",
+   "2001헌라1",
+   "91헌마25",
+   "2020헌바374"
+  ],
+  "fulltext_pulled": [
+   "92헌마264",
+   "2001헌라1",
+   "91헌마25",
+   "2020헌바374"
+  ],
+  "votes": {
+   "V1": 2,
+   "V2": 2,
+   "V3": 2
+  },
+  "vote_pattern": "3",
+  "contest_reasons": [
+   "지문conf<0.7",
+   "blind-safe 반대측 challenger 미구성에 따른 확신 보류"
+  ],
+  "redteam": {
+   "blind": true,
+   "proposition_②": {
+    "side_A": "헌법 제75조는 대통령령 위임에 구체적 범위를 요구하고, 헌법 제37조 제2항과 지방자치법 제28조 제1항 단서는 권리 제한 조례에 법률의 근거를 요구하므로 조례 위임에도 같은 구체성 기준을 적용해야 한다는 논거이다.",
+    "side_B": "헌법 제75조는 대통령령에 관한 조항이고, 동일 쟁점을 직접 판단한 92헌마264 및 2020헌바374 결정 전문은 지방의회의 민주적 정당성과 포괄적 자치권을 이유로 조례 위임은 포괄적인 것으로 족하다고 명시한다.",
+    "blind_result": "side_B 우세; side_A는 조례 위임의 구체성에 관한 동일쟁점 판시가 아니어서 challenger 형식요건 미달"
+   },
+   "proposition_③": {
+    "side_A": "행정규칙은 원칙적으로 대외적 법규성이 없으므로 헌법 제117조 제1항의 법령에서 제외된다는 논거이다.",
+    "side_B": "91헌마25 결정 전문은 법령의 직접 위임에 따라 위임한계 안에서 정해진 행정규칙이 대외적 구속력을 가진 법규명령으로 기능한다고 판시하고, 2001헌라1 결정 전문은 바로 그 행정규칙이 헌법 제117조 제1항의 법령에 포함된다고 명시한다.",
+    "blind_result": "side_B 우세; side_A는 선지의 법규명령으로 기능하는 한정을 반박하지 못해 challenger 형식요건 미달"
+   },
+   "confidence_rule": "근거 있는 challenger 미구성 → 확신 보류; 약한 지문 confidence 유지",
+   "source_expansion": "korean-law·8770·8768·precedent-search 확인. 법고을은 격리환경에서 Chrome 세션 기동 실패"
+  },
+  "deepdive": true,
+  "deepdive_model": "gpt-5.6-sol"
+ }
+}

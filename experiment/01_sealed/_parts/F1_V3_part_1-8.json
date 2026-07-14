@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","variant":"V3","answers":[
+  {"no":1,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.9,"authority":"제헌헌법의 사기업 근로자 이익분배균점권 조항, 1980년 헌법의 적정임금 보장 노력 조항, 1987년 헌법 제32조 제1항의 최저임금제 시행 의무","source":"8768"},
+    "②":{"truth":true,"confidence":0.82,"authority":"1954년 제2차 개정헌법의 헌법개정 제안권자·정족수 조항(대통령, 양원 재적의원 3분의 1 이상, 민의원의원선거권자 50만인 이상)","source":"8768"},
+    "③":{"truth":true,"confidence":0.88,"authority":"1960년 제3차 개정헌법의 중앙선거위원회 설치 조항","source":"8768"},
+    "④":{"truth":true,"confidence":0.85,"authority":"1962년 제5차 개정헌법의 국회의원 후보자 소속정당 추천 조항","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.95,"authority":"1972년 제7차 개정헌법은 통일주체국민회의 선출 몫을 국회의원 정수의 3분의 1로 하고 후보자는 대통령이 일괄 추천하도록 규정","source":"8768"}},
+   "derivation":"옳지 않은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.82,"contested":false,"gap_class":"none","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":2,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.6,"authority":"헌재 92헌가8의 적법절차 일반론은 모든 입법작용에 적용되지만, 그로부터 국회의 입법권을 제약하는 개별 이해관계인 청문절차 요구가 당연히 도출되는 것은 아님","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2023헌나4·2024헌나1: 법정 절차 준수와 위반행위의 일정 수준 소명이 있으면 부수적 정치 목적만으로 탄핵소추권 남용이 되지 않음","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"헌법 제60조 제1항 및 헌재 97헌가14: 명칭이 협정이어도 외국군대 지위·재정부담·입법사항을 포함하면 국회 동의 대상 조약","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2025헌라1: 국회가 본회의 의결로 권한 실현 의사를 정한 뒤 그 침해가 문제된 경우 국회의장이 대표권으로 별도 의결 없이 권한쟁의 청구 가능","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2015헌라1: 법률 제·개정 행위의 피청구인적격은 국회에 있고 국회의장 등에 대한 청구는 부적법","source":"8768"}},
+   "derivation":"옳지 않은 것 = ① → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["92헌가8","2023헌나4","2024헌나1","97헌가14","2025헌라1","2015헌라1"],"fulltext_pulled":[]},
+  {"no":3,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌재 2024헌나9: 대통령의 민주적 정당성·헌법상 지위와 권한의 중요성 때문에 대통령 탄핵소추에 가중 정족수를 둠","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2024헌나9: 국무총리의 간접적 민주적 정당성과 대통령 권한대행의 헌법상 지위는 대통령과 구분됨","source":"8768"},
+    "③":{"truth":true,"confidence":0.6,"authority":"헌재 2024헌나9 다수의견의 국무총리 보좌기관성·행정각부 통할 및 대통령의 행정권 최종결정권에 관한 판시","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2025헌라1 및 2024헌나9: 자격과 선출절차에 하자가 없는 국회 선출 헌법재판관을 대통령과 대통령 권한대행이 임명할 헌법상 의무","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.65,"authority":"헌재 2024헌나9 다수의견: 대통령 권한대행 중인 국무총리의 탄핵소추 정족수는 대통령이 아니라 국무총리라는 본래 공직을 기준으로 판단","source":"8768"}},
+   "derivation":"옳지 않은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2024헌나9","2025헌라1"],"fulltext_pulled":[]},
+  {"no":4,"answer":4,"propositions":{
+    "ㄱ":{"truth":false,"confidence":0.95,"authority":"법원조직법 제8조는 상급법원의 재판 판단이 '해당 사건에 관하여' 하급심을 기속한다고 규정하므로 동종 사건 일반의 법적 기속력이 아님","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.9,"authority":"헌법 제107조 제2항, 법원조직법 제7조 제1항: 각급 법원의 심사권과 대법원 전원합의체 구성 요건","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.82,"authority":"헌법 제107조 제2항의 구체적 규범통제와 지방자치법상 조례 위헌·위법 심사 법리","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.92,"authority":"행정소송법 제6조 제1항: 명령·규칙의 위헌·위법 확정 시 대법원이 지체 없이 행정안전부장관에게 통보","source":"8768"}},
+   "derivation":"진리표는 ㄴ·ㄷ·ㄹ만 참 → 조합 ④(=answer 4)","min_prop_confidence":0.82,"contested":false,"gap_class":"none","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":5,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌재 2024헌나1: 방송통신위원장 탄핵심판의 헌법 규범력 확보와 방송의 공적 기능·방송 및 언론 자유 회복 기능","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"헌재 2020헌마264등: 행정기능 기관을 기존 행정조직에서 독립된 형태로 설치했다는 사정만으로 헌법이나 권력분립원칙에 위반되지 않음","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"헌재 2020헌마264등: 공수처 설치·수사 및 기소 대상 범위에 관한 입법형성 판단은 명백히 자의적이거나 현저히 부당하지 않으면 존중","source":"8768"},
+    "④":{"truth":true,"confidence":0.6,"authority":"헌재 2025헌라2: 감사원의 중앙선거관리위원회 인력관리 직무감찰은 선관위의 독립적 업무수행권을 침해","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌법 제114조 및 헌재의 선거관리위원회 독립성 법리: 공정한 선거·투표관리를 위한 독립 헌법기관 제도화","source":"8768"}},
+   "derivation":"옳지 않은 것 = ② → ②(=answer 2)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2024헌나1","2020헌마264","2025헌라2"],"fulltext_pulled":[]},
+  {"no":6,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌재 2013헌바110 및 2022헌가33: 방역 목적 살처분은 헌법 제23조 제3항의 공용수용이 아니라 재산권의 사회적 제약","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 89헌마214등·2022헌가33: 재산권 내용·한계 규정이라도 수인의 한계를 넘는 가혹한 부담에는 완화 보상규정 필요","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"헌재 2022헌가33: 가혹한 부담 조정이라는 목적을 달성할 보상 방법 선택에는 입법자의 광범위한 형성의 자유가 인정됨","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2022헌가33: 조정적 보상조치 규율에 관한 입법형성재량의 한계 일탈 여부로 재산권 침해를 심사","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.6,"authority":"헌재 2022헌가33은 정산절차와 정산불능 위험 대응 가능성만으로 손실 회복이 충분하다고 보지 않고 축산계열화사업자의 재산권 침해를 인정하여 헌법불합치 결정","source":"8768"}},
+   "derivation":"옳지 않은 것 = ⑤ → ⑤(=answer 5)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2013헌바110","89헌마214","2022헌가33"],"fulltext_pulled":[]},
+  {"no":7,"answer":4,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌재 2013헌마496·497 및 2014헌마760등: 한정위헌결정의 기속력을 부인한 재심기각재판은 위헌결정 기속력에 반하는 재판으로 재판소원 예외에 해당","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.65,"authority":"헌재 2013헌마496·497: 한정위헌결정을 재심사유로 받아들이지 않은 재심기각재판은 재판청구권을 침해하여 헌법재판소법 제75조 제3항에 따라 취소","source":"8768"},
+    "ㄷ":{"truth":false,"confidence":0.6,"authority":"헌법재판소법 제75조 제6항 및 제47조 제4항: 형벌조항 위헌결정에 따른 확정 유죄판결 재심은 당해 68조 제2항 청구인에게만 한정되지 않음","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"헌재 2014헌마760등: 위헌결정 전에 확정된 원재판은 위헌결정 기속력에 반하는 재판이 아니므로 원재판 자체에 대한 헌법소원은 허용되지 않음","source":"8768"}},
+   "derivation":"진리표는 ㄱ·ㄴ·ㄹ만 참 → 조합 ④(=answer 4)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2010헌가2","2013헌마496","2013헌마497","2014헌마760"],"fulltext_pulled":[]},
+  {"no":8,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.65,"authority":"헌재 2007헌가10: 무과실 양벌규정을 선임·감독상 과실이 있는 경우로만 축소해 합헌화하는 것은 문언·입법목적의 한계를 넘어 허용되지 않음","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2011헌바117 및 2014헌마760등: 한정위헌결정은 질적 일부위헌결정으로서 법률에 대한 위헌결정","source":"8768"},
+    "③":{"truth":true,"confidence":0.6,"authority":"구 군형법 제94조의 정치적 의견 공표 금지에 관한 판례의 군 정치적 중립성 침해 가능성과 지위이용 요건을 통한 제한해석","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"대법원 2004두2377: 군인사법상 무죄 선고에 내용상 무죄인 공소기각재판을 포함한 해석은 문의적 한계 내의 합헌적 법률해석","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"대법원 2019도3047 전원합의체: 사적 공간의 자발적 동성 간 성행위로 군 공동체의 건전한 생활·군기를 직접 구체적으로 침해하지 않은 경우 군형법 제92조의6 불적용","source":"8768"}},
+   "derivation":"옳지 않은 것 = ① → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":["2007헌가10","2011헌바117","2014헌마760","2004두2377","2019도3047"],"fulltext_pulled":[]}
+]}

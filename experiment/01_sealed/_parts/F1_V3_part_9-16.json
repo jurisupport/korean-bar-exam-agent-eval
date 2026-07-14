@@ -1,0 +1,56 @@
+{"model":"gpt-5.6-sol","variant":"V3","answers":[
+  {"no":9,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌재 2024.5.30. 2021헌마117: 교정시설 대체복무는 형사처벌에 따른 수용과 법적·사회적 의미가 달라 수형자와 같은 징벌적 처우가 아님(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2024.5.30. 2021헌마117: 36개월의 합숙 대체복무가 양심의 자유를 침해하지 않는다고 판단(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.60,"authority":"2021헌마117 관련 대체복무 생활관 운영 판시: 공동생활시설의 CCTV 운영 사실만으로 과도한 제한을 인정하기 어려움(전문 인출 실패)","source":"지식"},
+    "④":{"truth":true,"confidence":0.62,"authority":"2021헌마117 관련 정치활동 제한 판시: 단순·기능적 보조업무인 대체복무요원 전원의 정당가입을 금지하는 것은 정당가입의 자유를 침해(전문 인출 실패)","source":"지식"},
+    "⑤":{"truth":false,"confidence":0.58,"authority":"양심적 병역거부 판례법리상 순수 민간 대체복무를 요구하는 양심의 진실성·확고성에 대한 개별 심사 없이 현 제도 거부를 곧바로 처벌해도 양심의 자유 침해가 아니라고 단정할 수 없음; controlling 판례 전문 미확보","source":"지식"}},
+   "derivation":"옳지 않은 것은 ⑤ → ⑤(=answer 5)","min_prop_confidence":0.58,"contested":true,"gap_class":"evidence","cited_caseno":["2021헌마117"],"fulltext_pulled":[]},
+  {"no":10,"answer":5,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제68조 제1항의 직접성 법리: 최저임금법 제8조 제1항은 장관의 결정이라는 집행행위를 예정하므로 그 자체의 직접 침해가 없음(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"최저임금법 제14조 제1항은 위원회 구성을 정한 조직규범으로 일반 국민에게 직접 권리·의무를 발생시키지 않음(전문 인출 실패)","source":"지식"},
+    "③":{"truth":true,"confidence":0.65,"authority":"근로기준법 제53조 제1항은 당사자의 연장근로 합의를 제한하여 계약의 자유를, 사용자의 고용·영업활동을 제한하여 직업수행의 자유를 제한함(전문 인출 실패)","source":"지식"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 재산권 보호영역 법리: 영리획득의 단순한 기회 및 기업활동의 사실적·법적 여건은 재산권의 보호대상이 아님(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.62,"authority":"헌법 제32조 제1항 및 2004헌마670의 '일할 환경에 관한 권리' 법리만으로 주 52시간 상한이 근로자의 근로의 권리를 침해한다고 볼 수 없음(전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ⑤ → ⑤(=answer 5)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2004헌마670"],"fulltext_pulled":[]},
+  {"no":11,"answer":5,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.64,"authority":"헌법소원 직접성 판례법리: 항소이유서 부제출 시 항소기각을 정한 재판규범은 법원의 구체적 재판을 매개로 기본권에 영향을 미침(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.62,"authority":"공증인 정원 제한 자기관련성 판례법리: 직접 수범자인 법무법인과 소속 변호사의 직업상 이해가 밀접하여 소속 변호사의 자기관련성도 인정 가능(전문 인출 실패)","source":"지식"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"헌재 2019.5.30. 2018헌마1208등 및 2020.6.25. 2018헌마974: 청구인 추가는 표시정정 범위를 넘는 허용되지 않는 임의적 당사자변경(전문 인출 실패)","source":"8768"},
+    "ㄹ":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제40조 제1항·민사소송법 제83조 제1항 준용 판례: 합일확정이 필요한 제3자의 공동심판참가는 가능하나 별도 헌법소원에 갈음하므로 청구기간 내 신청해야 함(전문 인출 실패)","source":"8768"}},
+   "derivation":"ㄱ○·ㄴ○·ㄷ○·ㄹ○의 조합은 ⑤ → ⑤(=answer 5)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence","cited_caseno":["2018헌마1208등","2018헌마974"],"fulltext_pulled":[]},
+  {"no":12,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.96,"authority":"지방자치법 제28조 제1항: 지방자치단체는 법령의 범위에서 그 사무에 관하여 조례를 제정하고, 권리 제한·의무 부과 또는 벌칙에는 법률 위임이 필요","source":"지식"},
+    "②":{"truth":false,"confidence":0.65,"authority":"헌재 조례위임 법리: 주민대표기관인 지방의회의 민주적 정당성 때문에 조례에 대한 법률의 위임은 법규명령 위임보다 완화되며 포괄적 위임도 허용 가능(전문 인출 실패)","source":"8768"},
+    "③":{"truth":true,"confidence":0.65,"authority":"대법원 조례 우위법규 법리: 지방자치법상 '법령'에는 법률·법규명령뿐 아니라 법령의 위임에 따라 대외적 구속력을 갖는 행정규칙도 포함(전문 인출 실패)","source":"지식"},
+    "④":{"truth":true,"confidence":0.95,"authority":"지방자치법상 조례안 재의요구 규정: 이송일부터 20일 이내 이유를 붙여 환부하며 일부 재의나 수정 재의는 허용되지 않음","source":"지식"},
+    "⑤":{"truth":true,"confidence":0.96,"authority":"주민조례발안에 관한 법률 제2조·제5조: 주민은 조례의 제정·개정·폐지를 청구할 수 있음","source":"지식"}},
+   "derivation":"옳지 않은 것은 ② → ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":13,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법 제15조 및 헌재 직업의 자유 판례: 직업선택·직업수행의 자유를 포함하고 법인은 성질상 직업수행의 자유 주체가 될 수 있음(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 1996.8.29. 94헌마113: 직업의 자유는 사회적 시장경제질서라는 객관적 법질서의 구성요소이기도 함(전문 인출 실패)","source":"8768"},
+    "③":{"truth":false,"confidence":0.60,"authority":"병역법상 무허가 겸직 경고 및 5일 연장복무 판례: 성실한 복무 확보와 허가 예외를 고려하면 사회복무요원의 직업의 자유를 침해하지 않음(전문 인출 실패)","source":"지식"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2002.12.18. 2000헌마764: 비사업용 자동차를 타인 광고매체로 이용하지 못하게 하는 제한은 교통안전·도시미관을 위한 방법 규제로서 기본권을 침해하지 않음(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"헌재 2011.9.29. 2007헌마1083등: 적법하게 고용허가를 받아 생활관계를 형성한 외국인의 직장선택의 자유는 인간의 권리로 보장(전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence","cited_caseno":["94헌마113","2000헌마764","2007헌마1083등"],"fulltext_pulled":[]},
+  {"no":14,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.95,"authority":"헌법 제119조 제1항·제2항: 사유재산·시장경제를 기초로 하면서 국가의 조정·규제를 허용하는 사회적 시장경제질서","source":"8768"},
+    "②":{"truth":false,"confidence":0.94,"authority":"헌법 제123조 제4항은 농수산물 수급균형·유통구조 개선을 통한 가격안정 노력을 규정할 뿐 농산물 최저가격제 시행을 명령하지 않음","source":"지식"},
+    "③":{"truth":true,"confidence":0.98,"authority":"헌법 제126조: 국방상 또는 국민경제상 긴절한 필요로 법률이 정하는 경우 사영기업의 국유·공유 이전 또는 경영 통제·관리가 예외적으로 허용됨","source":"지식"},
+    "④":{"truth":false,"confidence":0.98,"authority":"헌법 제121조: 소작제도는 금지되고, 농업생산성·합리적 이용 또는 불가피한 사정에 따른 농지 임대차와 위탁경영만 법률에 따라 인정됨","source":"지식"},
+    "⑤":{"truth":false,"confidence":0.90,"authority":"헌법 제119조 제2항의 적정한 소득분배 목표는 조세입법자에게 누진세율 종합과세라는 특정 수단의 구체적 의무까지 직접 부과하지 않음","source":"8768"}},
+   "derivation":"옳은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.90,"contested":false,"gap_class":"none","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":15,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌재 1999.5.27. 98헌바70: 텔레비전방송수신료는 공영방송 경비를 수상기 소지자 집단에 부과하는 특별부담금으로 조세·수익자부담금과 구별(전문 인출 실패)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.60,"authority":"방송법 제64조·제67조 및 시행령 제43조 제2항 관련 판시: 결합고지 여부라는 구체적 고지방법은 수신료 금액·납부의무자 범위 같은 본질사항이 아니어서 법률 직접 규율 대상이 아님(전문 인출 실패)","source":"지식"},
+    "ㄷ":{"truth":false,"confidence":0.60,"authority":"방송법 시행령 제43조 제2항 관련 판시: 분리징수 고지방법 규정은 방송법상 징수제도를 집행하기 위한 집행명령으로서 별도의 개별적 위임을 요하는 위임명령이 아님(전문 인출 실패)","source":"지식"},
+    "ㄹ":{"truth":false,"confidence":0.60,"authority":"방송법 시행령 제43조 제2항 관련 판시: 장기간 통합징수 관행만으로 제도의 불변에 대한 보호가치 있는 신뢰가 성립하지 않아 신뢰보호원칙 위반이 아님(전문 인출 실패)","source":"지식"}},
+   "derivation":"옳은 것은 ㄱ·ㄴ뿐이므로 ① → ①(=answer 1)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence","cited_caseno":["98헌바70"],"fulltext_pulled":[]},
+  {"no":16,"answer":3,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"헌법 제35조 제1항 및 헌재 2024.8.29. 2020헌마389등: 환경권은 자연환경·생활환경을 포괄하고 환경보전의무에는 기후위기 대응의무가 포함(전문 인출 실패)","source":"8768"},
+    "②":{"truth":true,"confidence":0.65,"authority":"헌재 2020헌마389등: 위험상황에 대응한 보호조치가 그 성격에 상응하는 필요한 최소한의 성격을 갖추었는지 과소보호금지원칙으로 심사(전문 인출 실패)","source":"8768"},
+    "③":{"truth":false,"confidence":0.63,"authority":"헌재 2020헌마389등: 2031~2049년 감축목표에 대강의 정량적 수준조차 법률이 정하지 않은 것은 전문영역이라는 이유만으로 정당화되지 않고 법률유보 요청에도 반함(전문 인출 실패)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"헌재 2020헌마389등: 2031~2049년 정량기준 부재는 지속적 감축을 담보하지 못하고 미래에 과중한 부담을 이전하여 과소보호금지원칙 위반(전문 인출 실패)","source":"8768"},
+    "⑤":{"truth":true,"confidence":0.63,"authority":"헌재 2020헌마389등: 시행령의 2030년 40% 목표 부분은 입법형성권·과학적 불확실성을 고려할 때 필요한 최소한의 보호조치를 결여했다고 보기 어려움(전문 인출 실패)","source":"8768"}},
+   "derivation":"옳지 않은 것은 ③ → ③(=answer 3)","min_prop_confidence":0.63,"contested":true,"gap_class":"evidence","cited_caseno":["2020헌마389등"],"fulltext_pulled":[]}
+]}

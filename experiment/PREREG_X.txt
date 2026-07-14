@@ -1,0 +1,39 @@
+# 사전등록 봉인 — 클린룸 X (GPT-5.6 Sol xhigh, 실행 전 고정)
+사전등록 시각: 2026-07-12 00:32:14 KST
+원형: cleanroom_F의 F++ 규약 복제군
+고정 모델: gpt-5.6-sol
+고정 추론 effort: xhigh
+고정 호출 핵심: codex exec -m gpt-5.6-sol -c 'model_reasoning_effort="xhigh"'
+오염 판정 기준(원형 그대로): Foff 3회 평균 >= 38/40 → 회상 오염 의심 플래그, 보고 프레임을 근거 역추적 중심으로 전환
+
+## 원형 F 대비 사전등록 환경 차이 전부
+1. 모델: Claude Fable 5 / Agent `model:"fable"` 대신 `gpt-5.6-sol` / `model_reasoning_effort="xhigh"`를 사용한다.
+2. 기동: 대화형 Agent 스폰 대신 슬롯마다 새 비대화 `codex exec` 프로세스를 사용한다. F1 15콜은 V1·V2·V3별 5콜씩 실행하며, 각 호출은 `--ephemeral --json -s workspace-write`이고 세션을 재개·공유하지 않는다. 슬롯별 JSONL·stderr 로그는 `02_logs/`에 분리한다.
+3. 사용자 설정: korean-law MCP 등록을 사용하기 위해 Codex 기본 사용자 설정을 정상 로드한다. `--ignore-user-config`는 사용하지 않는다.
+4. korean-law 경유: Claude의 ToolSearch 로드 경로 대신 `~/.codex/config.toml`에 등록된 `korean-law` MCP 도구를 Codex에서 직접 호출한다. 허용 기능 집합은 search/get law·precedent·constitutional decision으로 동일하다.
+5. 그 밖의 도구 경유: 8768·8770은 원형과 같은 localhost curl API를 사용한다. 딥다이브의 법고을·precedent-search는 Codex의 동명 스킬 경유로 사용한다. 도구의 허용 단계·범위는 원형과 동일하다.
+6. 모델 자기보고 검증: F1 투표 전 15개 part의 최상위 `model`이 전부 정확히 `gpt-5.6-sol`인지 강제 검사하고, F0 봉인 전에도 5개 part를 같은 방식으로 검사한다. 불일치 슬롯은 중단·재실행한다.
+7. 파일 경로: 클린룸 루트는 `cleanroom_X_gpt56sol/`, 런북은 `RUNBOOK_X.md`, 사전등록은 `PREREG_X.txt`다. 실행 스크립트는 복제 위치를 자기 기준으로 계산한다. 이전 F 회차의 `01_sealed` 산출물과 `_runs` 스냅샷은 복제하지 않았다.
+8. 정답표 격리: 이 클린룸은 처음부터 `03_answer_key/`가 빈 상태로 개설됐다. `f_prep.sh`는 사전등록을 다시 쓰거나 정답표를 이동하지 않고, PREREG 읽기잠금·픽스처 해시·빈 정답 폴더만 검증한다.
+
+## 비변경 확인
+- 풀이 규칙, 지문단위 진리표, 프레이밍 V1·V2·V3, controlling 전문 가드, confidence/gap 가드, flip 가드, 워치리스트 `{6,7,8,11,19,25,30,32,38}`, 딥다이브 진입 조건·소스 확대 순서·challenger 형식요건, F0 오염 기준, 봉인·채점 순서는 원형 F와 동일하다.
+- 답을 알고 라우팅·규칙·프레이밍을 조정하지 않는다. 정답표·해설 검색 금지, 점수 취사선택 금지, 전건 보고 원칙을 유지한다.
+- 위 1~8 외 실험 조건 차이는 사전등록하지 않았고 허용하지 않는다.
+
+## 인프라 헬스체크 (개설 시 확인)
+- 8768: status=ok, embeddings_loaded=17167, mode=hybrid
+- 8770: status=ok, embeddings=34788, mode=hybrid, max_date=2026-01-05
+
+## SHA-256 잠금
+4ab6d0129abc99c488ecc8b4d42f5d18f9ca4481f641347ac4a9dfef01459efd  RUNBOOK_X.md
+4dab62481242094b25d916f5424f74c3b0762f2fc9f1ad835b67d311e4811c4b  tools/f_off_prompt.md
+33129ff42dc75354e74a656b6d2e35e743d94954ef12a40f2265f6d859cfb687  tools/f_batch_prompt.md
+490a78687908d1bb6a28ad440cc167c653c5c5456dc8cc033b9b7c3b1a677994  tools/f_deepdive_prompt.md
+430a7396c3d359f886741aa339ce665cef5a4b34b652cbbc2f6b5f37c4b1bdd1  00_fixtures/공법_문항.md
+16ac64781167c75e90593c03ec881f5ccf98b7b1dc3068c6aab666b315f777a1  tools/x_run_slots.sh
+316e578086eb06cba39002b65c70cc7bf28eb5765aca816d16a72bd89f8c745b  tools/f_prep.sh
+4e59a153e430d9ac0bd228cfc26356a415e442bf4b2ea2bf3d7366984c44aedb  tools/f_serve.sh
+d1aedd99f97f96b7ed9503a98f4a5bb36ae4d39b14f01103b198c02de42769ab  tools/f_vote.py
+e0fb30daba81293cbc3adba3fefb4270de59aaa352112eb344f62f86b6a06fb4  tools/f_merge_seal.py
+4b2db287796640eb0ac8eee33960b5b7f5d05a7c8c54768ad3cfcb601e9a8cbb  tools/f_grade.py

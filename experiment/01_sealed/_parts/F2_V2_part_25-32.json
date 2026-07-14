@@ -1,0 +1,77 @@
+{"model":"gpt-5.6-sol","variant":"V2","answers":[
+  {"no":25,"answer":5,
+   "propositions":{
+     "①":{"truth":false,"confidence":0.64,"authority":"대법원 2014두42506 판시: 사증은 입국허가 그 자체가 아니라 입국허가의 예비조건·추천에 불과함(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "②":{"truth":false,"confidence":0.64,"authority":"대법원 2014두42506 판시: 출입국관리법상 사증발급 기준은 공익 보호를 위한 것이고 외국인의 사익·입국권을 보호하는 규정이 아님(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "③":{"truth":false,"confidence":0.64,"authority":"대법원 2014두42506 판시: 대한민국 밖 외국인에게 사증발급 거부처분 취소를 구할 법률상 이익이 인정되지 않음(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "④":{"truth":false,"confidence":0.60,"authority":"행정절차법 제24조 및 교재DB 수록 판시: 사증발급 거부를 성질상 처분서 작성·교부가 불필요·곤란한 처분이라고 일률적으로 단정할 수 없음(전문 미인출)","source":"8768"},
+     "⑤":{"truth":true,"confidence":0.62,"authority":"행정절차법 제21조·제22조의 불이익처분 구조와 대법원 2014두42506의 사증 법적 성질: 사증발급 거부는 기존 권익을 적극 제한하거나 의무를 부과하는 처분이 아님(전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳은 것은 ⑤만 참 → ⑤(=answer 5)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2014두42506"],"fulltext_pulled":[]},
+  {"no":26,"answer":3,
+   "propositions":{
+     "ㄱ":{"truth":false,"confidence":0.60,"authority":"대법원 2022두56661 판시: 면접 일정 변경 거부의 독립한 위법성과 그 취소를 구할 이익을 인정한 사안(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2022두56661 판시: 종교적 불이익에 비해 공공기관·제3자의 부담이 현저히 작으면 실질적 평등을 위한 적극적 조치의무가 인정됨(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "ㄷ":{"truth":false,"confidence":0.60,"authority":"대법원 2022두56661 판시: 국립대학은 기본권에 직접 구속되어 종교적 사유의 면접 변경 요청을 재량권 일탈·남용 심사보다 넓게 위법 판단함(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "ㄹ":{"truth":true,"confidence":0.64,"authority":"대법원 2022두56661 판시: 대학의 추가 부담이 크지 않은데도 아무 조정 없이 응시 기회를 박탈한 거부는 위법함(교재DB 수록 판시, 전문 미인출)","source":"8768"}
+   },
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○ → ③(=answer 3)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2022두56661"],"fulltext_pulled":[]},
+  {"no":27,"answer":2,
+   "propositions":{
+     "ㄱ":{"truth":false,"confidence":0.64,"authority":"행정대집행법 제2조 및 교재DB 법리: 대집행 대상은 대체적 작위의무이고, 영업에 사용하지 않을 부작위·비대체적 의무는 대상이 아님","source":"8768"},
+     "ㄴ":{"truth":true,"confidence":0.65,"authority":"대법원 2020두48390 판시: 처분 당시 확인된 여러 위반행위를 모두 고려해 하나의 제재양정을 해야 하고 특별한 사정 없이 분할 제재할 수 없음(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "ㄷ":{"truth":false,"confidence":0.60,"authority":"교재DB 수록 대법원 판시: 시정명령은 위반자가 법률상·사실상 이행할 수 있는 내용이어야 하므로 스스로 시정 불가능한 상태까지 명할 수 없음(전문 미인출)","source":"8768"},
+     "ㄹ":{"truth":true,"confidence":0.65,"authority":"질서위반행위규제법 제20조 제2항: 당사자가 적법한 이의를 제기하면 행정청의 과태료 부과처분은 효력을 상실함","source":"8768"},
+     "ㅁ":{"truth":false,"confidence":0.64,"authority":"교재DB 수록 병역법상 인적사항 공개 법리: 공개대상자 선정·통지 후의 최종 공개결정은 독립한 항고소송 대상 처분임(전문 미인출)","source":"8768"}
+   },
+   "derivation":"ㄱ×·ㄴ○·ㄷ×·ㄹ○·ㅁ× → ②(=answer 2)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2020두48390"],"fulltext_pulled":[]},
+  {"no":28,"answer":1,
+   "propositions":{
+     "①":{"truth":false,"confidence":0.64,"authority":"교재DB 수록 소송유형 법리: 재개발조합의 조합장 등 임원의 선임·해임 관계는 공법상 당사자소송이 아니라 민사소송 사항임","source":"8768"},
+     "②":{"truth":true,"confidence":0.65,"authority":"대법원 2024두52427 판시: 신탁방식 정비사업에서 사업시행자와 토지등소유자 사이의 위탁자 지위 확인은 공법상 당사자소송 대상임(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "③":{"truth":true,"confidence":0.62,"authority":"대법원 94다31235 전원합의체 및 교재DB 소송형태 법리: 항고소송·당사자소송의 선택을 잘못한 경우 법원은 석명하여 적법한 소로 변경하게 하되 변경 후 소도 부적법함이 명백한 경우는 제외함(전문 미인출)","source":"8768"},
+     "④":{"truth":true,"confidence":0.60,"authority":"교재DB 수록 대법원 판시: 법률상 지원금 지급의무가 다투어지는 당사자소송에서 법원은 절차 심사에 그치지 않고 구체적 지급액을 확정해야 함(전문 미인출)","source":"8768"},
+     "⑤":{"truth":true,"confidence":0.65,"authority":"헌법재판소 2020헌가12 결정: 국가를 상대로 한 재산권 청구에서 가집행선고를 제한한 국가배상법 제43조는 위헌이므로 국가 상대 당사자소송에도 가집행선고가 가능함(교재DB 수록 결정, 전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳지 않은 것은 ① → ①(=answer 1)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2024두52427","94다31235","2020헌가12"],"fulltext_pulled":[]},
+  {"no":29,"answer":4,
+   "propositions":{
+     "ㄱ":{"truth":true,"confidence":0.60,"authority":"대법원 2010두14954 전원합의체 및 교재DB 인허가의제 법리: 주된 인허가에 따라 의제된 인허가가 다시 다른 인허가까지 연쇄적으로 의제하는 것은 아님(전문 미인출)","source":"8768"},
+     "ㄴ":{"truth":true,"confidence":0.64,"authority":"교재DB 수록 대법원 판시: 주된 처분에 의해 의제된 산지전용허가도 그 효력 소멸을 명하는 별도의 취소처분 대상이 될 수 있고 그 취소처분은 항고소송 대상임(전문 미인출)","source":"8768"},
+     "ㄷ":{"truth":true,"confidence":0.60,"authority":"행정기본법 제25조·제26조 및 교재DB 인허가의제 법리: 의제된 인허가의 전부 또는 일부를 독립하여 철회·취소할 수 있고 그 처분도 쟁송 대상이 됨","source":"8768"},
+     "ㄹ":{"truth":false,"confidence":0.58,"authority":"구 주택법상 부분 인허가의제 구조에 관한 교재DB 판시: 의제된 인허가의 고시 방식상 하자가 곧바로 주택건설사업계획 승인 자체의 하자로 승계되는 것은 아님(전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳은 것은 ㄱ·ㄴ·ㄷ → ④(=answer 4)","min_prop_confidence":0.58,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2010두14954"],"fulltext_pulled":[]},
+  {"no":30,"answer":4,
+   "propositions":{
+     "ㄱ":{"truth":true,"confidence":0.65,"authority":"대법원 99두2970 등 확립된 재량심사 법리: 재량처분은 사실오인·비례평등 위반 등 재량권 일탈·남용 여부를 심사함(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "ㄴ":{"truth":true,"confidence":0.63,"authority":"교재DB 수록 공법상 계약 법리: 행정청이 상대방과 공법상 계약으로 재량행사의 기준을 정한 경우 중대한 공익상 필요나 사정변경이 없는 한 그 약정에 구속됨(전문 미인출)","source":"8768"},
+     "ㄷ":{"truth":false,"confidence":0.62,"authority":"구 국민건강보험법상 부당이득 징수의 '전부 또는 일부' 문언과 교재DB 판시: 징수액 결정에는 재량이 있으므로 전액 징수를 기속행위로 볼 수 없음(전문 미인출)","source":"8768"},
+     "ㄹ":{"truth":true,"confidence":0.63,"authority":"교재DB 수록 대법원 판시: 행정청이 선행 명령으로 형성한 표준연료비 정산의 유리한 사실을 알면서 배제한 처분은 사실오인 및 재량권 일탈·남용에 해당함(전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳은 것은 ㄱ·ㄴ·ㄹ → ④(=answer 4)","min_prop_confidence":0.62,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["99두2970"],"fulltext_pulled":[]},
+  {"no":31,"answer":1,
+   "propositions":{
+     "①":{"truth":true,"confidence":0.65,"authority":"행정소송법 제20조와 교재DB 제소기간 법리: 90일은 불변기간이지만 당사자에게 책임 없는 사유가 있으면 소송행위 추후보완이 가능함","source":"8768"},
+     "②":{"truth":false,"confidence":0.64,"authority":"행정절차법 제15조 제3항: 송달받을 자를 알 수 없는 공고는 다른 특별한 규정이 없으면 공고일부터 14일 경과 시 효력이 발생하므로 5일이 아님","source":"8768"},
+     "③":{"truth":false,"confidence":0.64,"authority":"대법원 2004두7023·2008두10560 판시: 적법한 소 변경은 특별한 사정이 없으면 최초 소 제기 때에 변경된 소가 제기된 것으로 보아 제소기간을 판단함(교재DB 수록 판시, 전문 미인출)","source":"8768"},
+     "④":{"truth":false,"confidence":0.60,"authority":"교재DB 수록 변경처분 법리: 유리하게 변경된 경우 원처분은 변경된 내용으로 존속하고 제소기간도 원처분을 기준으로 하며 변경처분일에 새로 진행하지 않음(전문 미인출)","source":"8768"},
+     "⑤":{"truth":false,"confidence":0.64,"authority":"대법원 2011두18786 판시: 행정심판청구의 적법 여부는 법원이 독자적으로 판단하며 행정심판 재결의 본안 판단에 구속되지 않음(교재DB 수록 판시, 전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳은 것은 ①만 참 → ①(=answer 1)","min_prop_confidence":0.60,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2004두7023","2008두10560","2011두18786"],"fulltext_pulled":[]},
+  {"no":32,"answer":4,
+   "propositions":{
+     "ㄱ":{"truth":true,"confidence":0.58,"authority":"교재DB 수록 국가배상 판시: 무효가 아닌 처분이 집행되어 상대방이 준수비용을 지출해야 하는 경우 그 현실적 손해는 처분 시점에 발생할 수 있음(전문 미인출)","source":"8768"},
+     "ㄴ":{"truth":false,"confidence":0.60,"authority":"교재DB 수록 헌법재판 사건 국가배상 판시: 적법한 청구를 기간 도과로 오인해 각하하여 재판기회를 상실시킨 손해는 본안 결과와 별도로 배상책임이 성립할 수 있음(전문 미인출)","source":"8768"},
+     "ㄷ":{"truth":false,"confidence":0.64,"authority":"대법원 2001다47290 등 직무상 의무의 보호목적 법리: 법령상 의무가 공공 일반·행정 내부질서만을 위한 것이고 개인의 안전·이익 보호 목적이 아니면 제3자 손해에 대한 국가배상책임은 성립하지 않음(교재DB 수록 판시, 전문 미인출)","source":"8768"}
+   },
+   "derivation":"옳지 않은 것은 ㄴ·ㄷ → ④(=answer 4)","min_prop_confidence":0.58,"contested":true,"gap_class":"evidence",
+   "cited_caseno":["2001다47290"],"fulltext_pulled":[]}
+]}

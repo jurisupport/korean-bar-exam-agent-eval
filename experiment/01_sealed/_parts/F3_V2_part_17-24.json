@@ -1,0 +1,55 @@
+{"model":"gpt-5.6-sol","variant":"V2","answers":[
+  {"no":17,"answer":2,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"헌법재판소법 제47조 제2항 및 2010헌마535에서 정리된 비형벌법규 위헌결정의 당해·동종·병행사건 소급효와 일반사건의 법적 안정성 제한 법리(전문 미인출)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.85,"authority":"헌법재판소법 제47조 제3항·제4항: 형벌법규 위헌결정의 소급효와 유죄확정판결에 대한 재심 허용","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.75,"authority":"헌법재판소법 제47조 제1항·제67조 제1항·제75조 제1항은 위헌·권한쟁의·인용결정의 기속력을 규정하나 탄핵심판 결정의 법정 기속력 규정은 두지 않음","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.65,"authority":"대법원 2011. 6. 23. 선고 2008도7562 전원합의체: 잠정적용 헌법불합치 형벌조항은 개선시한 도과 시 소급하여 효력을 상실하므로 무죄를 선고(전문 미인출)","source":"8768"},
+    "ㅁ":{"truth":false,"confidence":0.65,"authority":"2011헌바38 관련 판시: 처분 후 근거법률의 위헌결정은 원칙적으로 취소사유일 뿐 당연무효사유가 아니고 예외적으로만 무효(전문 미인출)","source":"8768"}
+  },"derivation":"옳은 것 = ㄱ, ㄴ, ㄷ → ②(=answer 2)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2010헌마535","2008도7562","2011헌바38"],"fulltext_pulled":[]},
+  {"no":18,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.6,"authority":"법원조직법상 과거 3년 이내 당원경력의 법관 임용 결격조항에 관한 헌재 위헌 판시: 재판의 독립·정치적 중립성과 긴밀한 관련 없는 경우까지 일률 배제(사건번호·전문 미확인)","source":"지식"},
+    "ㄴ":{"truth":true,"confidence":0.6,"authority":"구 국가공무원법상 피성년후견인 당연퇴직조항에 관한 헌재 위헌 판시: 직무수행능력의 개별 판단 없이 신분을 박탈하여 공무담임권 침해(사건번호·전문 미확인)","source":"지식"},
+    "ㄷ":{"truth":true,"confidence":0.6,"authority":"국가공무원법·군인사법상 아동 대상 성적 학대행위 전력자의 일반직 공무원·부사관 임용 결격조항에 관한 헌재 위헌 판시: 기간·직무의 구분 없는 일률적 배제(사건번호·전문 미확인)","source":"지식"},
+    "ㄹ":{"truth":false,"confidence":0.6,"authority":"국가공무원법 및 공무원임용령상 감봉 후 12개월 승진임용 제한에 관한 헌재 합헌 판시: 징계의 실효성과 공직기강을 위한 한시적 제한(사건번호·전문 미확인)","source":"지식"}
+  },"derivation":"진리표 = ㄱ○, ㄴ○, ㄷ○, ㄹ× → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":19,"answer":2,"propositions":{
+    "①":{"truth":true,"confidence":0.65,"authority":"2020헌마1724등: 전단등 살포 금지·처벌조항은 중대한 위험 발생 여부와 무관한 광범위한 형사규제로서 표현의 자유를 침해(전문 미인출)","source":"8768"},
+    "②":{"truth":false,"confidence":0.55,"authority":"공직선거법 제251조 후보자비방죄 및 진실한 사실로서 공공의 이익에 관한 때의 위법성 조각 구조에 관한 헌재 합헌 판시(사건번호·전문 미확인)","source":"지식"},
+    "③":{"truth":true,"confidence":0.55,"authority":"구 정보통신망법 제44조의5 제1항 제1호의 공공기관 게시판 본인확인조치에 관한 헌재 위헌 판시와 2010헌마47의 본인확인제 최소침해성·법익균형성 법리(해당 결정 전문 미인출)","source":"8768"},
+    "④":{"truth":true,"confidence":0.6,"authority":"인터넷선거보도 심의기준상 선거일 전 90일부터 후보자 명의 칼럼 등을 일률 제한한 조항에 관한 헌재 위헌 판시(사건번호·전문 미확인)","source":"지식"},
+    "⑤":{"truth":true,"confidence":0.65,"authority":"2018헌마450: 선거운동기간 인터넷언론사 게시판의 실명확인 및 과태료 조항은 익명표현의 자유를 침해(전문 미인출)","source":"8768"}
+  },"derivation":"옳지 않은 것 = ② → ②(=answer 2)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2020헌마1724등","2010헌마47","2018헌마450"],"fulltext_pulled":[]},
+  {"no":20,"answer":1,"propositions":{
+    "①":{"truth":false,"confidence":0.65,"authority":"헌법재판소법 제68조 제2항의 재판전제성 법리: B조항은 면허취소처분의 근거가 아니라 장래 재취득 결격기간의 근거이므로 취소소송 재판에 적용되지 않음(전문 미인출)","source":"8768"},
+    "②":{"truth":true,"confidence":0.95,"authority":"사례상 위헌제청신청이 이루어진 당해사건은 부산지방법원 2025구단1464 자동차운전면허취소처분취소 사건","source":"지식"},
+    "③":{"truth":true,"confidence":0.65,"authority":"법령헌법소원의 직접성 법리: B조항의 재취득 결격효과는 법률상 직접 발생하나 A조항의 취소효과는 행정청의 처분을 매개로 발생(전문 미인출)","source":"8768"},
+    "④":{"truth":true,"confidence":0.65,"authority":"화물차 운전을 업으로 하는 사람에 대한 면허취소와 재취득 결격은 직업수행·선택의 자유를 제한한다는 헌재 법리(전문 미인출)","source":"지식"},
+    "⑤":{"truth":true,"confidence":0.6,"authority":"2회 음주운전자에 대한 2년의 일률적 면허 결격기간이 반복 음주운전 억제 목적에 비추어 침해최소성에 반하지 않는다는 헌재 판시(사건번호·전문 미확인)","source":"지식"}
+  },"derivation":"옳지 않은 것 = ①(B조항은 당해 취소소송의 재판전제가 아님) → ①(=answer 1)","min_prop_confidence":0.6,"contested":true,"gap_class":"evidence","cited_caseno":[],"fulltext_pulled":[]},
+  {"no":21,"answer":1,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.65,"authority":"대법원 2024. 12. 19. 선고 2022다289051 전원합의체: 장애인의 접근권은 헌법상 기본권의 지위를 가지나 구체적 시설 설치청구권으로 실현되려면 법률의 구체화가 필요(전문 미인출)","source":"8768"},
+    "ㄴ":{"truth":true,"confidence":0.58,"authority":"2022다289051 전원합의체의 행정입법 개선의무 판단: 다른 정책수단으로 실질적 설치율을 달성한 사정은 미개정의 정당한 이유 판단에서 고려 가능(전문 미인출)","source":"8768"},
+    "ㄷ":{"truth":true,"confidence":0.6,"authority":"2022다289051 전원합의체의 국가배상 법리: 행정입법 부작위에 관한 공무원의 고의·과실은 특정 담당 공무원을 개별적으로 확정하지 않고도 판단 가능(전문 미인출)","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.58,"authority":"2022다289051 전원합의체의 객관적 정당성 상실 판단에서는 개선의무를 인식할 가능성 등 사정도 배제하지 않고 종합 고려(전문 미인출)","source":"8768"}
+  },"derivation":"진리표 = ㄱ○, ㄴ○, ㄷ○, ㄹ× → ①(=answer 1)","min_prop_confidence":0.58,"contested":true,"gap_class":"evidence","cited_caseno":["2022다289051"],"fulltext_pulled":[]},
+  {"no":22,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.8,"authority":"소송요건 흠결을 이유로 한 각하판결의 기판력은 그 흠결이 보완되지 않은 상태에 미치므로, 흠결 보완 후 다시 제소할 수 있다는 판례 법리","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"대법원 2024. 2. 8. 선고 2022두50571: 사립학교 교원이 당연퇴직했더라도 미지급 임금 등 권리회복 가능성이 있으면 교원소청심사결정 취소의 법률상 이익이 인정됨(전문 미인출)","source":"8768"},
+    "③":{"truth":true,"confidence":0.9,"authority":"행정소송법 제30조 제2항은 거부처분 취소판결 후 재처분의무를, 제34조는 그 불이행에 대한 간접강제를 규정","source":"8768"},
+    "④":{"truth":false,"confidence":0.8,"authority":"취소판결의 반복금지효는 기본적 사실관계가 동일한 사유에 한정되므로, 기본적 사실관계가 다른 새 사유에 따른 동일 결과 처분은 허용된다는 판례 법리","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.7,"authority":"인용재결의 기속력은 관계 행정청을 구속하지만 민사소송법상 기판력처럼 당사자와 법원의 사실·법률판단까지 확정하는 효력은 아님","source":"8768"}
+  },"derivation":"옳은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2022두50571"],"fulltext_pulled":[]},
+  {"no":23,"answer":5,"propositions":{
+    "ㄱ":{"truth":true,"confidence":0.55,"authority":"금융감독원 직원의 직무상 작성·취득 문서는 공무원의 직무상 문서에 준하여 정보공개법 절차로 공개되어야 하므로 민사소송상 문서제출명령을 거부할 수 있다는 대법원 판시(사건번호·전문 미확인)","source":"지식"},
+    "ㄴ":{"truth":true,"confidence":0.6,"authority":"군사법원법 제309조의3의 공소제기 후 검사 보유 서류·물건 열람·등사 제도는 정보공개법 제4조 제1항의 특별한 공개절차에 해당한다는 판례 법리(사건번호·전문 미확인)","source":"지식"},
+    "ㄷ":{"truth":true,"confidence":0.65,"authority":"대법원 2023. 7. 27. 선고 2022두52980: 정보공개 거부에 이의신청을 한 경우 취소소송 제소기간은 이의신청 결과를 통지받은 날부터 기산(전문 미인출)","source":"8768"},
+    "ㄹ":{"truth":false,"confidence":0.85,"authority":"행정소송규칙 제11조: 법원은 비공개정보 해당 여부 심리를 위해 대상 정보의 제출을 명하고 공개하지 않은 채 열람·심사할 수 있음","source":"8768"}
+  },"derivation":"옳은 것 = ㄱ, ㄴ, ㄷ → ⑤(=answer 5)","min_prop_confidence":0.55,"contested":true,"gap_class":"evidence","cited_caseno":["2022두52980"],"fulltext_pulled":[]},
+  {"no":24,"answer":3,"propositions":{
+    "①":{"truth":false,"confidence":0.85,"authority":"토지보상법 제30조: 토지소유자는 사업시행자에게 재결신청을 청구하고 사업시행자가 60일 이내 재결신청을 하여야 하며, 토지소유자의 직접 재결신청은 허용되지 않음","source":"8768"},
+    "②":{"truth":false,"confidence":0.65,"authority":"대법원 2007. 5. 17. 선고 2006두19495 등: 재결 전에는 보상금액이 확정되지 않으므로 곧바로 당사자소송으로 손실보상금을 청구할 수 없음(전문 미인출)","source":"8768"},
+    "③":{"truth":true,"confidence":0.9,"authority":"토지보상법 제88조: 처분에 대한 이의신청이나 행정소송의 제기는 사업의 진행 및 토지의 수용 또는 사용을 정지시키지 않음","source":"8768"},
+    "④":{"truth":false,"confidence":0.9,"authority":"토지보상법 제85조 제2항: 보상금 증감소송은 사업시행자를 피고로 하고 관할 토지수용위원회를 피고로 하지 않음","source":"8768"},
+    "⑤":{"truth":false,"confidence":0.65,"authority":"수용재결이 있더라도 당사자는 별도의 합의로 보상에 관한 사법상 법률관계를 정할 수 있다는 판례 법리(전문 미인출)","source":"8768"}
+  },"derivation":"옳은 것 = ③ → ③(=answer 3)","min_prop_confidence":0.65,"contested":true,"gap_class":"evidence","cited_caseno":["2006두19495"],"fulltext_pulled":[]}
+]}
