@@ -4,6 +4,20 @@
 
 단순히 한 번 문제를 풀어 점수만 확인한 것이 아닙니다. 실험 방법을 미리 정하고, 정답표를 숨긴 상태에서 답안을 세 차례 만들고, 모든 답안을 봉인한 뒤 마지막에 정답표를 한 번만 열어 채점했습니다.
 
+## JuriSupport 법률 리서치 도구
+
+이 실험의 핵심 검색 도구는 [JuriSupport 플러그인 패키지](https://github.com/jurisupport/jurisupport-plugins)에서 제공하는 한국 법률 리서치 구성요소를 활용했습니다.
+
+- **`korean-law` MCP**: 법제처 기반 법령·판례 원문 확인
+- **`legal-books`**: 사용자가 보유한 법률서적을 OCR·임베딩해 교재 근거 검색
+- **`beopgoeul-search`**: 대법원 도서관 법고을 공식 사이트의 판례 검색
+
+1차 풀이에서는 `korean-law`와 `legal-books`만 사용했고, 문항별 딥다이브에서만 `beopgoeul-search`와 시험 시점으로 차단한 판례DB를 추가로 개방했습니다.
+
+플러그인 저장소에는 도구 코드와 설치 절차가 공개되어 있습니다. 사용자가 보유한 교재 파일과 이 실험의 교재DB 내용은 포함되지 않습니다.
+
+> 도구 저장소: https://github.com/jurisupport/jurisupport-plugins
+
 ## 한눈에 보는 결과
 
 | 조건 | 1회 | 2회 | 3회 | 평균 |
