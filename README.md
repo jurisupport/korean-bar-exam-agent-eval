@@ -358,4 +358,6 @@ python3 analysis/analyze_results.py
 
 이 저장소는 AI 성능평가와 재현성 검토를 위한 연구자료입니다. 법률 자문이 아니며 실제 사건의 판단 근거로 사용해서는 안 됩니다.
 
-시험문제, 공식 정답표, 법령, 판례, 교재 텍스트의 권리는 각 원출처에 있습니다. 자세한 사항은 [NOTICE.md](NOTICE.md)를 참고하십시오.
+시험문제와 확정 정답은 법무부가 공공누리 제1유형, 출처표시 조건으로 공개한 자료입니다. [공식 기출문제](https://www.moj.go.kr/bbs/moj/150/602397/artclView.do)와 [확정 정답](https://www.moj.go.kr/bbs/moj/151/603464/artclView.do)을 출처로 표시합니다.
+
+교재DB와 교재 파일, 법령·판례·교재 검색 결과 전문이 담긴 원시 JSONL 로그는 이 저장소에 포함되지 않습니다. 자세한 사항은 [NOTICE.md](NOTICE.md)를 참고하십시오.
